@@ -1,1 +1,78 @@
-test
+<html>
+<head>
+    <title>Convert SR to Color</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+    :root{
+        margin-left: 200px;
+        margin-right: 200px;
+        font-family: 'Manrope', sans-serif;
+        background-color: #1f1f1f;
+        color:white;
+        padding: 20px;
+        font-size: 20pt;
+    }
+    input{
+        box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+    margin: 10px;
+    }
+</style>
+<script>
+    // from ppy/osu-web
+    const difficultyColourSpectrum = d3.scaleLinear()
+        .domain([1.5, 2, 2.5, 3.25, 4.5, 6, 7, 8])
+        .clamp(true)
+        .range(['#4FC0FF', '#4FFFD5', '#7CFF4F', '#F6F05C', '#FF8068', '#FF3C71', '#6563DE', '#18158E'])
+        .interpolate(d3.interpolateRgb.gamma(2.2));
+
+    // from https://css-tricks.com/
+    function RGBToHex(rgb) {
+        // Choose correct separator
+        let sep = rgb.indexOf(",") > -1 ? "," : " ";
+        // Turn "rgb(r,g,b)" into [r,g,b]
+        rgb = rgb.substr(4).split(")")[0].split(sep);
+
+        let r = (+rgb[0]).toString(16),
+            g = (+rgb[1]).toString(16),
+            b = (+rgb[2]).toString(16);
+
+        if (r.length == 1)
+            r = "0" + r;
+        if (g.length == 1)
+            g = "0" + g;
+        if (b.length == 1)
+            b = "0" + b;
+
+        return "#" + r + g + b;
+    }
+    
+    function getDiffColour(rating) {
+    rating ??= 0;
+    return rating >= 8 ? '#000000' : RGBToHex(difficultyColourSpectrum(rating).toString());
+    }
+    function gen() {
+        document.getElementById("output").value = getDiffColour(document.getElementById("sr").value);
+    }
+</script>
+<center>
+<form>
+<label for="sr">Star Rating </label> <br><input type="text" id="sr" min="0" name="Star Rating" onkeydown="gen()" autofocus required> <br>
+<form>
+<output id="output" for="sr"></output>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span style="font-size: 10pt !important;">ignore this webpage i just wanted to make stuff more convenient for myself only, all the code credit goes to https://github.com/Azuelle/osuStuff/tree/master/diffs/</span>
+</center>
+</body>
+</html>
