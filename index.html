@@ -1,18 +1,21 @@
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-        .time{
+
+        .time {
             font-family: 'Courier Prime', monospace;
             color: white;
             font-size: 70pt;
         }
-        :root{
+
+        :root {
             background-color: #1f1f1f;
         }
     </style>
 </head>
 
 <body>
+
     <div style="display:flex;justify-content: center;" class="time">
         <p id="days"></p>
         <p id="hours"></p>
@@ -21,15 +24,32 @@
         <h2 id="end"></h2>
     </div>
     <script>
+        function calcTime(offset) {
+            // create Date object for current location
+            var d = new Date();
+
+            // convert to msec
+            // subtract local time zone offset
+            // get UTC time in msec
+            var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+            // create new Date object for different city
+            // using supplied offset
+            var nd = new Date(utc + (3600000 * offset));
+
+            // return time as a string
+            return nd;
+        }
         // i took these code from internet lol
 
         // The data/time we want to countdown to
-        var countDownDate = new Date("Dec 22, 2021 00:00:00").getTime();
+        var countDownDate = new Date("Dec 22, 2021 00:00:00 GMT+7").getTime();
 
         // Run myfunc every second
         var myfunc = setInterval(function () {
 
-            var now = new Date().getTime();
+            var now = calcTime("+7.0")
+            console.log(typeof(now));
             var timeleft = countDownDate - now;
 
             // Calculating the days, hours, minutes and seconds left
