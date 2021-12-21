@@ -1,55 +1,57 @@
 <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-        :root {
-            background-color: rgb(37, 37, 37);
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+        .time{
+            font-family: 'Courier Prime', monospace;
             color: white;
-            font-family: 'Rubik', sans-serif;
-            padding: 20px;
-            line-height: 150%;
+            font-size: 70pt;
         }
-
-        a {
-            color: white;
-            transition: .5s;
-        }
-        a:hover{
-            color: deepskyblue;
-        }
-        hr {
-            margin: 20px;
+        :root{
+            background-color: #1f1f1f;
         }
     </style>
 </head>
 
 <body>
-    <h1>My GD Archives (Not in any order.)</h1>
-    <hr>
-    <h2>Standard</h2>
-    <li>Kuriyama Yuri - Purple hype (Ryuusei Aika): <a href="Kuriyama Yuri - Purple hype (Ryuusei Aika) [ohm's Special].osu">Special</a></li>
-    <li>Ryokuoushoku Shakai - Shout Baby (TV Size) (Sarawatlism) : <a href="Ryokuoushoku Shakai - Shout Baby (TV Size) (Sarawatlism) [ohm's Hard].osu">Hard</a></li>
-    <li>balloon - Charles (self cover) (xHappy-) : <a href="balloon - Charles (self cover) (xHappy-) [Insane ft. ohm002].osu">Insane ft. ohm002</a></li>
-    <li>ClariS - Careless (TV Size) (Sarawatlism) :<a href="ClariS - Careless (TV Size) (Sarawatlism) [ohm's Hard].osu">Hard</a></li>
-    <li>ClariS - Colorful -movie MIX- (Sarawatlism) : <a href="ClariS - Colorful -movie MIX- (Sarawatlism) [Ohm's Insane].osu">Insane</a></li>
-    <li>ClariS - Luminous -movie MIX- (Sarawatlism) : <a href="ClariS - Luminous -movie MIX- (Sarawatlism) [ohm's Hard].osu">Hard</a></li>
-    <li>crash bandicoot - aku aku theme (Wolftyui) : <a href="Ryokuoushoku Shakai - Shout Baby (TV Size) (Sarawatlism) [ohm's Hard].osu">Overmapped Bongo</a></li>
-    <li>Harumaki Gohan - Suisei ni Nareta nara (Typ4) : <a href="Harumaki Gohan - Suisei ni Nareta nara (Typ4) [Ohm's Insane].osu">Insane</a></li>
-    <li>Kawai Sprite - M.I.L.F ([-Evil-]) : <a href="Kawai Sprite - M.I.L.F ([-Evil-]) [Ohm's Insane].osu">Insane</a></li>
-    <li>midorijeon - Harumachi Clover feat. Hatsune Miku (Kyrian) : <a href="midorijeon - Harumachi Clover feat. Hatsune Miku (Kyrian) [Ohm's Light Insane].osu">Light Insane</a></li>
-    <li>Nakagawa Shoko - Dori Dori (TV Size) (Sarawatlism) : <a href="Nakagawa Shoko - Dori Dori (TV Size) (Sarawatlism) [ohm's Insane].osu">Insane</a></li>
-    <li>sumika - Fanfare (xHappy-) : <a href="sumika - Fanfare (xHappy-) [ohmtier's Insane].osu">ohmtier's Insane</a></li>
-    <li>Reol - Q (TV Size) (- Frontier -) : <a href="Reol - Q (TV Size) (- Frontier -) [Ohm's EXtra].osu">EXtra</a></li>
-    <li>syudou - Cute Girlfriend (0ugi) : <a href="syudou - Cute Girlfriend (0ugi) [ohm's extra].osu">extra</a></li>
-    <li>The Penguin Band feat. Cadence - Ghosts Just Wanna Dance (Cut Ver.) ([-Evil-]) : <a href="The Penguin Band feat. Cadence - Ghosts Just Wanna Dance (Cut Ver.) ([-Evil-]) [Ohm's Hard].osu">Hard</a></li>
-    <li>Toby Fox - Queen ([-Evil-]) : <a href="Toby Fox - Queen ([-Evil-]) [ohm's royalty extra].osu">royalty extra</a></li>
-    <li>yanaginagi - Megumi no Ame (TV Size) (Sarawatlism) : <a href="yanaginagi - Megumi no Ame (TV Size) (Sarawatlism) [Ohm's Insane].osu">Insane</a></li>
-    <li>Drop - Granat (Uraomote Error) : <a href="Drop - Granat (Uraomote Error) [ohm002's Adagio].osu">Adagio</a></li>
-    <li>Drop - Granat (Uraomote Error) : <a href="Drop - Granat (Uraomote Error) [ohm002's Extra].osu">Extra</a></li>
-    <li>Drop - Granat (Uraomote Error) : <a href="Drop - Granat (Uraomote Error) [ohm002's Forever].osu">Forever</a></li>
-    <hr>
-    <h2>Taiko</h2>
-    <li>Kairiki bear feat. GUMI - Manemane Psychotropic (Ringtone Ver.) (bluirre) : <a href="Kairiki bear feat. GUMI - Manemane Psychotropic (Ringtone Ver.) (bluirre) [ohm's Inner Oni].osu">Inner Oni</a></li>
-    <hr>
-    <small>If i missed anything, let <a href=https://osu.ppy.sh/users/4468239>me</a> know!</small>
+    <div style="display:flex;justify-content: center;" class="time">
+        <p id="days"></p>
+        <p id="hours"></p>
+        <p id="mins"></p>
+        <p id="secs"></p>
+        <h2 id="end"></h2>
+    </div>
+    <script>
+        // i took these code from internet lol
+
+        // The data/time we want to countdown to
+        var countDownDate = new Date("Dec 22, 2021 00:00:00").getTime();
+
+        // Run myfunc every second
+        var myfunc = setInterval(function () {
+
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+
+            // Calculating the days, hours, minutes and seconds left
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+            // Result is output to the specific element
+            document.getElementById("hours").innerHTML = hours + ":"
+            document.getElementById("mins").innerHTML = minutes + ":"
+            document.getElementById("secs").innerHTML = seconds + ""
+
+            // Display the message when countdown is over
+            if (timeleft < 0) {
+                clearInterval(myfunc);
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = ""
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+                document.getElementById("end").innerHTML = "TIME UP!!";
+            }
+        }, 1000);
+    </script>
 </body>
