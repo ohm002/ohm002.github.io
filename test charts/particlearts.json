@@ -13,6 +13,8 @@
   "hitObjects": [
     { "type": "hold", "column": 2, "startTime": 3000, "endTime": 4000 },
     { "type": "hold", "column": 3, "startTime": 3000, "endTime": 4000 },
+    { "type": "hold", "column": 1, "startTime": 3000, "endTime": 4000 },
+    { "type": "hold", "column": 4, "startTime": 3000, "endTime": 4000 },
     { "type": "note", "column": 2, "startTime": 3000 }
   ],
   "cursor": [
@@ -37,7 +39,8 @@
     { "type": "normal", "x": 0.4863214526624065, "startTime": 1844 },
     { "type": "normal", "x": 0.49328182554327327, "startTime": 1891 },
     { "type": "normal", "x": 0.49780299101094905, "startTime": 1938 },
-    { "type": "normal", "x": 0.49986259255490795, "startTime": 1984 }
+    { "type": "normal", "x": 0.49986259255490795, "startTime": 1984 },
+    { "type": "normal", "x": 0.5, "startTime": 1000000 }
   ],
   "timingPoints": [
     {
@@ -48,5 +51,7 @@
       "volume": 100,
       "mode": "2k"
     }
+  ],
+  "speedChanges": [
   ]
 }

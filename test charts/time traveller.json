@@ -241,5 +241,9 @@
       "volume": 100,
       "mode": "2k"
     }
+  ],
+  "speedChanges": [
+    { "startTime": 0, "speed": 1.7 },
+    { "startTime": 23258, "speed": 10 }
   ]
 }
