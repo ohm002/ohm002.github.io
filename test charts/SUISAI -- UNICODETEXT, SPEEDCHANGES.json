@@ -234,7 +234,7 @@
     { "type": "note", "column": 2, "startTime": 17977 },
     { "type": "note", "column": 3, "startTime": 18052 },
     { "type": "note", "column": 2, "startTime": 18127 },
-    { "type": "note", "column": 3, "startTime": 18202 }
+    { "type": "hold", "column": 3, "startTime": 18202, "endTime": 21277 }
   ],
   "cursor": [
     { "type": "normal", "x": 0.7, "startTime": 1177 },

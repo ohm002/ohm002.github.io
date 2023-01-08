@@ -1,0 +1,33 @@
+{
+    "bgPath": "https://media.discordapp.net/attachments/1011804545254436864/1061594935175946281/BG.jpg?width=994&height=559",
+    "audioPath": "https://cdn.discordapp.com/attachments/1011804545254436864/1061594826673496134/ddds.mp3",
+    "metadata": {
+      "title": "dreamenddischarger",
+      "titleUnicode": "dreamenddischarger",
+      "artist": "zts",
+      "artistUnicode": "zts",
+      "creator": "ohm002",
+      "difficult": "OVERLOADLV10"
+    },
+  
+    "hitObjects": [
+      { "type": "note", "column": 2, "startTime": 7015},
+      { "type": "note", "column": 2, "startTime": 7336},
+      { "type": "note", "column": 3, "startTime": 7657},
+      { "type": "hold", "column": 2, "startTime": 20729, "endTime": 24586},
+      { "type": "hold", "column": 3, "startTime": 20729, "endTime": 24586}
+    ],
+    "cursor": [
+      { "type": "normal", "x": 0, "startTime": 7015 },
+      { "type": "normal", "x": 0.7, "startTime": 20729 }
+    ],
+    "timingPoints": [
+      {
+        "time": 7015,
+        "bpm": 140,
+        "meter": 4,
+        "defaultSampleSet": "soft",
+        "volume": 100
+      }
+    ]
+  }

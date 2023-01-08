@@ -11,36 +11,16 @@
   },
 
   "hitObjects": [
-    { "type": "hold", "column": 2, "startTime": 3000, "endTime": 4000 },
-    { "type": "hold", "column": 3, "startTime": 3000, "endTime": 4000 },
-    { "type": "hold", "column": 1, "startTime": 3000, "endTime": 4000 },
-    { "type": "hold", "column": 4, "startTime": 3000, "endTime": 4000 },
-    { "type": "note", "column": 2, "startTime": 3000 }
+    { "type": "note", "column": 2, "startTime": 7015},
+    { "type": "note", "column": 2, "startTime": 7336},
+    { "type": "note", "column": 3, "startTime": 7657},
+    { "type": "hold", "column": 2, "startTime": 20729, "endTime": 24586},
+    { "type": "hold", "column": 3, "startTime": 20729, "endTime": 24586}
   ],
   "cursor": [
-    { "type": "normal", "x": 0.035138094472646486, "startTime": 1000 },
-    { "type": "normal", "x": 0.07010243614094287, "startTime": 1047 },
-    { "type": "normal", "x": 0.1047201313830722, "startTime": 1094 },
-    { "type": "normal", "x": 0.1388200006937503, "startTime": 1141 },
-    { "type": "normal", "x": 0.17223342514216644, "startTime": 1188 },
-    { "type": "normal", "x": 0.20479518016825318, "startTime": 1234 },
-    { "type": "normal", "x": 0.23634425259428263, "startTime": 1281 },
-    { "type": "normal", "x": 0.2667246368117852, "startTime": 1328 },
-    { "type": "normal", "x": 0.2957861062067612, "startTime": 1375 },
-    { "type": "normal", "x": 0.32338495600859934, "startTime": 1422 },
-    { "type": "normal", "x": 0.34938471388942083, "startTime": 1469 },
-    { "type": "normal", "x": 0.37365681480003854, "startTime": 1516 },
-    { "type": "normal", "x": 0.39608123670556467, "startTime": 1563 },
-    { "type": "normal", "x": 0.41654709407704577, "startTime": 1609 },
-    { "type": "normal", "x": 0.4349531862043952, "startTime": 1656 },
-    { "type": "normal", "x": 0.4512084976192942, "startTime": 1703 },
-    { "type": "normal", "x": 0.4652326481535433, "startTime": 1750 },
-    { "type": "normal", "x": 0.4769562904073895, "startTime": 1797 },
-    { "type": "normal", "x": 0.4863214526624065, "startTime": 1844 },
-    { "type": "normal", "x": 0.49328182554327327, "startTime": 1891 },
-    { "type": "normal", "x": 0.49780299101094905, "startTime": 1938 },
-    { "type": "normal", "x": 0.49986259255490795, "startTime": 1984 },
-    { "type": "normal", "x": 0.5, "startTime": 1000000 }
+    { "type": "normal", "x": 0, "startTime": 7015 },
+    { "type": "normal", "x": 0.7, "startTime": 20729 },
+    { "type": "normal", "x": 1, "startTime": 50000 }
   ],
   "timingPoints": [
     {

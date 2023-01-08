@@ -1,5 +1,5 @@
 {
-  "bgPath": "https://media.discordapp.net/attachments/1021719285766295593/1043831905197506570/bg.jpg?width=994&height=559",
+  "bgPath": "https://media.discordapp.net/attachments/671324264531492878/1053280449138524160/73114426_p0.jpg?width=995&height=559",
   "audioPath": "https://cdn.discordapp.com/attachments/671324264531492878/1023460540342861874/audio.mp3",
   "metadata": {
     "title": "World Vanquisher (Game Ver.)",
@@ -725,6 +725,11 @@
       "x": 0,
       "startTime": 160109,
       "type": "normal"
+    },
+    {
+      "x": 0,
+      "startTime": 1000000,
+      "type": "normal"
     }
   ],
   "timingPoints": [
@@ -735,9 +740,5 @@
       "defaultSampleSet": "drum",
       "volume": 100
     }
-  ],
-  "speedChanges": [
-    { "startTime": 1000, "speed": 1 },
-    { "startTime": 1500, "speed": 2 }
   ]
 }
