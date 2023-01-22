@@ -366,7 +366,7 @@
     { "type": "normal", "x": 0.961825643172819, "startTime": 10852 },
     { "type": "normal", "x": 0.9829730996839018, "startTime": 10927 },
     { "type": "normal", "x": 0.9957341762950345, "startTime": 11002 },
-    { "type": "normal", "x": 0.5, "startTime": 10000000 }
+    { "type": "normal", "x": 0.5, "startTime": 100000 }
   ],
   "timingPoints": [
     {

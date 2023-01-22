@@ -14,14 +14,45 @@
       width: fit-content;
     }
 
+    :root {
+      background-color: black;
+    }
+
+    .custom-file-input {
+      color: transparent;
+    }
+
+    .custom-file-input::-webkit-file-upload-button {
+      /* display:none; */
+      visibility: hidden;
+    }
+
+    .custom-file-input::before {
+      content: 'ENTER YOUR DATA';
+      font-family: 'Roboto Condensed';
+      /* font-size: 1rem; */
+      padding: 5rem;
+      border: solid white 1px;
+      color: white;
+    }
+
+    .custom-file-input::after {
+      display: none
+    }
+
+    .custom-file-input {
+      width:100%;
+      filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+    }
+
   </style>
-  <script type="module" crossorigin src="/assets/index.570cbaba.js"></script>
-  <link rel="stylesheet" href="/assets/index.449303e7.css">
+  <script type="module" crossorigin src="/assets/index.c06c9888.js"></script>
+  <link rel="stylesheet" href="/assets/index.9e2ed672.css">
 </head>
 
 <body>
-  <input type="file" id="chartfile">
-  <button>Submit</button>
+  <center>
+    <input type="file" id="chartfile" class="custom-file-input"></center>
   <div id="root"></div>
   
   <script>
@@ -52,7 +83,7 @@
           "column": key,
           "startTime": starttime + Math.round((60000 / bpm) * index / beatdivisor)
         })
-        key = key==2 ? 3 : 2
+        key = key == 2 ? 3 : 2
       }
       console.log(JSON.stringify(array))
     }
