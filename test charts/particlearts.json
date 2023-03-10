@@ -11,42 +11,15 @@
   },
 
   "hitObjects": [
-    { "type": "note", "column": 2, "startTime": 7015 },
-    { "type": "note", "column": 2, "startTime": 7336 },
-    { "type": "note", "column": 3, "startTime": 7657 },
-    { "type": "hold", "column": 2, "startTime": 20729, "endTime": 24586 },
-    { "type": "hold", "column": 3, "startTime": 20729, "endTime": 24586 }
+    { "type": "hold", "column": 1, "startTime": 500, "endTime": 1000},
+    { "type": "hold", "column": 2, "startTime": 500, "endTime": 1000},
+    { "type": "hold", "column": 3, "startTime": 500, "endTime": 1000},
+    { "type": "hold", "column": 4, "startTime": 500, "endTime": 1000},
+    { "type": "hold", "column": 1, "startTime": 1500, "endTime": 2000},
+    { "type": "note", "column": 2, "startTime": 20000}
   ],
   "cursor": [
-    { "type": "normal", "x": 0.5, "startTime": 1000 },
-    { "type": "normal", "x": 0.5, "startTime": 1037 },
-    { "type": "normal", "x": 0.5, "startTime": 1074 },
-    { "type": "normal", "x": 0.5, "startTime": 1111 },
-    { "type": "normal", "x": 0.5, "startTime": 1149 },
-    { "type": "normal", "x": 0.5, "startTime": 1186 },
-    { "type": "normal", "x": 0.5, "startTime": 1223 },
-    { "type": "normal", "x": 0.5, "startTime": 1260 },
-    { "type": "normal", "x": 0.5, "startTime": 1297 },
-    { "type": "normal", "x": 0.5, "startTime": 1334 },
-    { "type": "normal", "x": 0.5, "startTime": 1371 },
-    { "type": "normal", "x": 0.5, "startTime": 1408 },
-    { "type": "normal", "x": 0.5, "startTime": 1446 },
-    { "type": "normal", "x": 0.5, "startTime": 1483 },
-    { "type": "normal", "x": 0.5, "startTime": 1520 },
-    { "type": "normal", "x": 0.5, "startTime": 1557 },
-    { "type": "normal", "x": 0.5, "startTime": 1594 },
-    { "type": "normal", "x": 0.5, "startTime": 1631 },
-    { "type": "normal", "x": 0.5, "startTime": 1668 },
-    { "type": "normal", "x": 0.5, "startTime": 1705 },
-    { "type": "normal", "x": 0.5, "startTime": 1743 },
-    { "type": "normal", "x": 0.5, "startTime": 1780 },
-    { "type": "normal", "x": 0.5, "startTime": 1817 },
-    { "type": "normal", "x": 0.5, "startTime": 1854 },
-    { "type": "normal", "x": 0.5, "startTime": 1891 },
-    { "type": "normal", "x": 0.5, "startTime": 1928 },
-    { "type": "normal", "x": 0.5, "startTime": 1965 },
-    { "type": "normal", "x": 0, "startTime": 2500 },
-    { "type": "normal", "x": 1, "startTime": 50000 }
+    { "type": "normal", "x": 0.6, "startTime": 1000 }
   ],
   "timingPoints": [
     {

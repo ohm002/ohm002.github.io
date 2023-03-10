@@ -21,7 +21,6 @@
     { "type": "note", "column": 3, "startTime": 7206 }
   ],
   "cursor": [
-    { "type": "normal", "x": 0, "startTime": 78 },
     { "type": "normal", "x": 1, "startTime": 2454 },
     { "type": "normal", "x": 0, "startTime": 4830 },
     { "type": "normal", "x": 1, "startTime": 7206 },
@@ -293,8 +292,7 @@
     { "type": "normal", "x": 0, "startTime": 56996 },
     { "type": "normal", "x": 0, "startTime": 57033 },
     { "type": "normal", "x": 0, "startTime": 57070 },
-    { "type": "normal", "x": 0, "startTime": 57107 },
-    { "type": "normal", "x": 1, "startTime": 1000000 }
+    { "type": "normal", "x": 0, "startTime": 57107 }
   ],
   "timingPoints": [
     {
