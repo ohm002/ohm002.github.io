@@ -6,53 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dirhythia</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
     canvas {
-      width: -webkit-fit-content;
       width: -moz-fit-content;
       width: fit-content;
     }
-
     :root {
-      background-color: black;
+      background-color: #777777;
+      color:white;
+      margin: 5rem;
+      background-image: url("/assets/background.d642630f.png");
+      font-family: "Audiowide";
     }
-
-    .custom-file-input {
-      color: transparent;
-    }
-
-    .custom-file-input::-webkit-file-upload-button {
-      /* display:none; */
-      visibility: hidden;
-    }
-
-    .custom-file-input::before {
-      content: 'ENTER YOUR DATA';
-      font-family: 'Roboto Condensed';
-      /* font-size: 1rem; */
-      padding: 5rem;
-      border: solid white 1px;
-      color: white;
-    }
-
-    .custom-file-input::after {
-      display: none
-    }
-
-    .custom-file-input {
-      width:100%;
-      filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
-    }
-
   </style>
-  <script type="module" crossorigin src="/assets/index.2b60df99.js"></script>
-  <link rel="stylesheet" href="/assets/index.c8a37034.css">
+  <script type="module" crossorigin src="/assets/index.5fec8c26.js"></script>
+  <link rel="stylesheet" href="/assets/index.6786fd9c.css">
 </head>
 
 <body>
-  <center>
-    <input type="file" id="chartfile" class="custom-file-input"></center>
+  <img src="/assets/logo.cfa01c65.png" alt="" id="accesscode" style="background-color: black;">
+  <input type="file" id="chartfile" class="custom-file-input" style="color:white;">
   <div id="root"></div>
   
   <script>
