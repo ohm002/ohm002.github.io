@@ -3,66 +3,214 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dirhythia</title>
+  <title>NEODITRONIX[[[]]]</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
     canvas {
       width: -moz-fit-content;
       width: fit-content;
     }
     :root {
-      background-color: #777777;
-      color:white;
-      margin: 5rem;
-      background-image: url("/assets/background.d642630f.png");
-      font-family: "Audiowide";
+      background-color: black;
+      color: white;
+    }
+    html {
+      font-family: 'Ubuntu Mono', monospace;
+      font-weight: 400;
+    }
+    body {
+      padding: 5px;
+      /* background-color: black; */
+    }
+    #root {}
+    span {}
+    #play,
+    #edit {
+      margin: 20px;
+    }
+    canvas {
+      /* filter: drop-shadow(0 0 20px #ffffff); */
+      /* border : white solid 0.5px; */
+      animation-name: fadein;
+      animation-duration: 0.5s;
+    }
+    .songpack {
+      margin: 0.5rem;
+      /* padding: 1rem; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .songpack-header {
+      font-size: 50pt !important;
+      filter: blur(3px);
+      position: absolute;
+      opacity: 0.2;
+    }
+    .songpreview {
+      /* background-color: rgba(255, 255, 255, 0.1); */
+    }
+    .song {
+      font-size: 15pt;
+      /* border: white solid 1px; */
+      filter: drop-shadow(0 0 5px #000000);
+      /* filter: blur(2px); */
+      margin: 0.5rem;
+      /* padding: rem; */
+      /* padding-right: 50rem; */
+      transition-duration: 1s;
+    }
+    .display {
+      /* margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+    }
+    .split {
+      height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    .song:hover {
+      font-size: 20pt;
+      /* filter: blur(0px); */
+    }
+    .glow {
+      filter: blur(0px) drop-shadow(0 0 5px #ffffff);
+
+    }
+    .left {
+      left: 0;
+
+    }
+    .right {
+      right: 0;
+      overflow: hidden;
+    }
+    .songs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* margin-top: 10rem;
+      margin-bottom: 10rem; */
+    }
+    .songtitlewrapper {
+      --blur: 5;
+      /* margin: 1rem 0; */
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      /* padding: 1rem 0; */
+    }
+    .songtitlediff {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+    }
+    .songtitleblurwrapper {
+      position: absolute;
+      filter: blur(1rem);
+
+      transform: scale(var(--blur),
+          0.001);
+    }
+    .songtitle {
+      transform: scale(calc(1/var(--blur)),
+          1000)
+    }
+    .songtitleanimation {
+      animation-name: songtitleanimation;
+      /* font-size: 15pt; */
+      /* transition-duration: 0.5s; */
+      animation-duration: 0.5s;
+    }
+    @keyframes songtitleanimation {
+      0% {
+        /* filter: blur(10px); */
+        /* color: red; */
+      }
+
+      100% {
+        /* font-size: 20pt; */
+        /* filter: blur(0px); */
+        /* color: white; */
+      }
+    }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .songjacketbg {
+      opacity: 0.1;
+      height: 30rem;
+      overflow-y: hidden;
+      width: 100%;
+      -o-object-fit: fill;
+         object-fit: fill;
+      /* filter: blur(10px); */
+    }
+    .songjacketbg img {
+      width: 100%;
+    }
+    .songjacket {
+      opacity: 1;
+      width: 20rem;
+      /* border-width: 0 5px 5px 0;
+      border-style: solid;
+      border-color: white; */
+      /* filter: drop-shadow(10px 10px white); */
+    }
+    .songplay {
+      margin: 1rem;
+      background-color: #000000;
+      border-radius: 5px;
+      border: white solid 1px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition-duration: 1s;
+    }
+    .songplay:hover {
+      background-color: white;
+      scale: 110%;
+      color: black;
+    }
+    @keyframes fadein {
+      0% {
+        opacity: 0
+      }
+
+      100% {
+        opacity: 1
+      }
     }
   </style>
-  <script type="module" crossorigin src="/assets/index.5fec8c26.js"></script>
-  <link rel="stylesheet" href="/assets/index.6786fd9c.css">
+  <script type="module" crossorigin src="/assets/index.474ed75a.js"></script>
+  <link rel="stylesheet" href="/assets/index.05517225.css">
 </head>
 
 <body>
-  <img src="/assets/logo.cfa01c65.png" alt="" id="accesscode" style="background-color: black;">
-  <input type="file" id="chartfile" class="custom-file-input" style="color:white;">
-  <div id="root"></div>
-  
-  <script>
-    function generaterapidline(bpm, beatdivisor, startpos, endpos, starttime, endtime) {
-      var array = []
-      var factor = 1
-      if (startpos > endpos) factor = -1;
-      for (let index = 0; index < Math.abs(starttime - endtime) / ((60000 / bpm) / beatdivisor); index++) {
-        const val = (Math.sin((((index + 1) / ((Math.abs(starttime - endtime) / ((60000 / bpm) / beatdivisor) + 1))) *
-          Math.PI) / 2)) * Math.abs(startpos - endpos)
-        const val2 = ((val - 0) / (1 - 0)) * (endpos - startpos) + startpos
-        array.push({
-          "type": "normal",
-          "x": startpos + (val * factor),
-          // "x": val2,
-          "startTime": starttime + Math.round((60000 / bpm) * index / beatdivisor),
-        })
-      }
-      console.log(JSON.stringify(array))
-    }
-
-    function trills(bpm, beatdivisor, starttime, endtime, startkey) {
-      var array = []
-      var key = startkey
-      for (let index = 0; index < Math.abs(starttime - endtime) / ((60000 / bpm) / beatdivisor); index++) {
-        array.push({
-          "type": "note",
-          "column": key,
-          "startTime": starttime + Math.round((60000 / bpm) * index / beatdivisor)
-        })
-        key = key == 2 ? 3 : 2
-      }
-      console.log(JSON.stringify(array))
-    }
-
-  </script>
+  <center>
+    <input className="song" type="file" name="chartfile" id="chartfile"></input>
+    <div class="root">
+    </div>
+    <div id="root"></div>
+    
+  </center>
 
 </body>
 
