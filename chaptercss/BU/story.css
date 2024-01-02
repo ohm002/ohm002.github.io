@@ -1,0 +1,41 @@
+
+
+.utopia-storylist {
+    /* font-family: 'Righteous', cursive; */
+    padding: 1rem;
+    margin: 5dvw;
+    /* background-image: url(https://cdn.discordapp.com/attachments/999638294390395022/1135493690001989692/IMG_2033.jpg); */
+    /* background-size: cover; */
+
+}
+
+.utopia-storyentry {
+    padding: 1rem;
+    margin: 2rem;
+    border: rgb(0, 0, 0) solid 1px;
+    /* background-color: rgba(255, 120, 194, 0.1); */
+    font-size: 2dvh;
+    transition: 1s;
+    width: 50dvh;
+}
+
+
+.utopia-storyentry:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.utopia-storydisplay {
+    color: rgb(0, 0, 0);
+    padding: 2dvw;
+    /* background-image: url(https://cdn.discordapp.com/attachments/999638294390395022/1135525923144355890/IMG_2037.jpg); */
+    /* background-size: cover; */
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 1px;
+    margin: 5dvw;
+    width: 40%;
+    height: 80%;
+    overflow: scroll;
+    background-size: cover;
+}

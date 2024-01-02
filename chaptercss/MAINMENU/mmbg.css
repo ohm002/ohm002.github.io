@@ -1,0 +1,127 @@
+html {
+    width: 100%;
+    overflow: hidden;
+}
+
+.game-menu2 {
+    background-color: rgba(255, 80, 217, 0.808);
+    width: 100svw;
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100svh;
+}
+
+input {
+    border-radius: 0;
+    padding: 0.5svw;
+    margin: 0.5svw;
+    font-weight: 600;
+    font-family: 'Montserrat', cursive;
+    border: none;
+    color: #f143d2;
+    font-size: 1svw;
+}
+
+.game-menu {
+    background-color: rgba(255, 80, 217, 0.808);
+    width: 100svw;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100svh;
+    animation: menu-in 10s ease-out;
+}
+
+@keyframes menu-in {
+    0% {
+        background-color: rgb(236, 44, 195);
+    }
+
+    100% {
+        background-color: rgba(255, 80, 217, 0.808);
+    }
+}
+
+.game-logo2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70svw;
+    padding: 1svw;
+    /* filter: drop-shadow(0 0 1svw rgba(255, 255, 255, 0.5)) ; */
+    /* padding-left: 20svw;
+    padding-right: 20svw; */
+    animation: constant 0.2s infinite;
+}
+
+@keyframes constant {
+    0% {
+        opacity: 0.2
+    }
+
+    24% {
+        opacity: 0.2
+    }
+
+    25% {
+        opacity: 0.4
+    }
+
+    49% {
+        opacity: 0.4
+    }
+
+    50% {
+        opacity: 0.3
+    }
+
+    74% {
+        opacity: 0.3
+    }
+
+    75% {
+        opacity: 0.5
+    }
+
+    99% {
+        opacity: 0.5
+    }
+
+    100% {
+        opacity: 0.1
+    }
+}
+
+
+.game-logo {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30svw;
+    padding: 1svw;
+    /* filter: drop-shadow(0 0 0.15svw rgb(255, 255, 255)); */
+    padding-left: 20svw;
+    filter: drop-shadow(3px 3px 0 white) drop-shadow(-3px -3px 0 white);
+    padding-right: 20svw;
+    /* background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(255, 255, 255, 0) 100%); */
+
+}
+
+.menu-partner {
+    filter: drop-shadow(0.5svw 0.5svw 0 rgba(255, 63, 213, 0.808));
+    /* opacity: 0.5; */
+    position: absolute;
+    bottom: 0;
+    width: 70svw;
+}
+
+.game-enter {
+    color: white;
+}

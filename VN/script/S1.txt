@@ -1,0 +1,32 @@
+$IMG=./VN/BG/2.jpg
+Amidst the infinite universe, a single spaceship stood alone in the black void of space.
+Inside the main operation room, a jumbled mess of nonsensical machines and countless computers seemed to be working as they should. 
+Shiro opens his command line to check the log reports of the universe, as always.
+$CHAR=Shiro
+$ICON=shiro_confused
+Still nothing here... Jeez... 
+Sometimes I’m really sick of getting empty logs like this. 
+I’ve been receiving no signals for *weeks* now. 
+Normally, I should get new information about the universe every few days, but now it's radio silent. 
+That’s kinda weird. 
+Theoretically, the universe must be infinite from my calculation, so I can never run out of something new to find. 
+Have I not traveled far enough? 
+At least I know that the closest planet I can go to for research is Earth. 
+I guess I'll just lock in the planet and turn on autopilot mode.
+$CHAR=
+Beep! Boop! 
+Beep! Boop! 
+Beep Beep!
+$CHAR=Shiro
+$ICON=shiro_happy
+Oh...?
+The sounds came from my computer.
+$ICON=
+$IMG=./VN/BG/3.jpg
+“New system downloaded successfully.”
+Even though I closed my internet, my computer was somehow still able to download something.
+And it’s a... system..?
+There’s a new system downloaded on my computer...?
+What is this weird-looking system?
+My curiosity immediately drags me towards the run button.
+...Can I run it...?

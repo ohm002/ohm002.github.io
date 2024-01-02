@@ -1,0 +1,214 @@
+{
+  "audioPath": "https://cdn.discordapp.com/attachments/671324264531492878/1011673846052552805/audio.mp3",
+  "bgPath": "underthrone_turmoil",
+  "jacketPath": "https://cdn.discordapp.com/attachments/1093213653249040425/1106474243853668442/ApplicationFrameHost_dUFaYh05Jk.png",
+  "metadata": {
+    "title": "Particle Arts (Game Ver.)",
+    "titleUnicode": "Particle Arts (Game Ver.)",
+    "artist": "Virtual Self",
+    "artistUnicode": "Virtual Self",
+    "creator": "The Virtual Machine",
+    "difficult": "Easy"
+  },
+  "hitObjects": [
+    {
+      "type": "hold",
+      "column": 1,
+      "startTime": 1151,
+      "endTime": 2000
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 1336
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 1522
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 1522
+    },
+    {
+      "type": "note",
+      "column": 1,
+      "startTime": 2633
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 2818
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 3003
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 3003
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 3929
+    },
+    {
+      "type": "note",
+      "column": 1,
+      "startTime": 4114
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 4299
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 4484
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 4484
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 5966
+    },
+    {
+      "type": "note",
+      "column": 1,
+      "startTime": 5966
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 6707
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 6707
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 7447
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 7447
+    },
+    {
+      "type": "note",
+      "column": 1,
+      "startTime": 8929
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 8929
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 10410
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 10410
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 11892
+    },
+    {
+      "type": "note",
+      "column": 1,
+      "startTime": 11892
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 12447
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 12447
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 13003
+    },
+    {
+      "type": "note",
+      "column": 4,
+      "startTime": 13003
+    },
+    {
+      "type": "note",
+      "column": 2,
+      "startTime": 13373
+    },
+    {
+      "type": "note",
+      "column": 3,
+      "startTime": 13373
+    }
+  ],
+  "cursor": [
+    { "type": "normal", "x": 0.0, "startTime": 10000 },
+    { "type": "normal", "x": 0.0, "startTime": 10100 },
+    { "type": "normal", "x": 0.0, "startTime": 10200 },
+    { "type": "normal", "x": 0.0, "startTime": 10300 },
+    { "type": "normal", "x": 0.0, "startTime": 10400 },
+    { "type": "normal", "x": 0.0, "startTime": 10500 },
+    { "type": "normal", "x": 0.0, "startTime": 10600 },
+    { "type": "normal", "x": 0.0, "startTime": 10700 },
+    { "type": "normal", "x": 0.0, "startTime": 10800 },
+    { "type": "normal", "x": 0.0, "startTime": 10900 },
+    { "type": "normal", "x": 0.0, "startTime": 11000 },
+    { "type": "normal", "x": 0.0, "startTime": 11100 },
+    { "type": "normal", "x": 0.0, "startTime": 11200 },
+    { "type": "normal", "x": 0.0, "startTime": 11300 },
+    { "type": "normal", "x": 0.0, "startTime": 11400 },
+    { "type": "normal", "x": 0.0, "startTime": 11500 },
+    { "type": "normal", "x": 0.0, "startTime": 11600 },
+    { "type": "normal", "x": 0.0, "startTime": 11700 },
+    { "type": "normal", "x": 0.0, "startTime": 11800 },
+    { "type": "normal", "x": 0.0, "startTime": 11900 },
+    { "type": "normal", "x": 0.0, "startTime": 12000 },
+    { "type": "normal", "x": 0.0, "startTime": 12100 },
+    { "type": "normal", "x": 0.0, "startTime": 12200 },
+    { "type": "normal", "x": 0.0, "startTime": 12300 },
+    { "type": "normal", "x": 0.0, "startTime": 12400 },
+    { "type": "normal", "x": 0.0, "startTime": 12500 },
+    { "type": "normal", "x": 0.0, "startTime": 12600 },
+    { "type": "normal", "x": 0.0, "startTime": 12700 },
+    { "type": "normal", "x": 0.0, "startTime": 12800 },
+    { "type": "normal", "x": 0.0, "startTime": 12900 }
+  ],
+  "timingPoints": [
+    {
+      "time": 500,
+      "bpm": 162,
+      "meter": 4,
+      "defaultSampleSet": "drum",
+      "volume": 100,
+      "mode": "2k"
+    }
+  ],
+  "speedChanges": []
+}
