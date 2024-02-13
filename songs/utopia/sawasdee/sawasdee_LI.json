@@ -1,8 +1,8 @@
 {
     "audioPath": "audio/sawasdee.wav",
     "bgPath": "utopia_space",
-    "id": "utopia.sawasdee.Neon",
-    "jacketPath": "jackets/starrysky.jpg",
+    "id": "utopia.sawasdee.Lite",
+    "jacketPath": "jackets/sawasdee.jpg",
     "preview": 24.796,
     "metadata": {
         "title": "Sawasdee! (DJ PADKAPRAO GAI KAIDAO BOOTLEG REMIX)",
@@ -11,8 +11,8 @@
         "artistUnicode": "encX",
         "illustrator": "log()",
         "creator": "HELLOHM002",
-        "difficult": "5",
-        "difficultcc": 5,
+        "difficult": "3",
+        "difficultcc": 3,
         "difficulttype": "LITE"
     },
     "hitObjects": [

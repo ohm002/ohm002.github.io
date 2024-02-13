@@ -2192,16 +2192,6 @@
         },
         {
             "type": "note",
-            "column": 3,
-            "startTime": 79778
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 79835
-        },
-        {
-            "type": "note",
             "column": 1,
             "startTime": 79892
         },
@@ -2217,16 +2207,6 @@
         },
         {
             "type": "note",
-            "column": 2,
-            "startTime": 80120
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80178
-        },
-        {
-            "type": "note",
             "column": 4,
             "startTime": 80235
         },
@@ -2239,16 +2219,6 @@
             "type": "note",
             "column": 4,
             "startTime": 80406
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80463
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 80520
         },
         {
             "type": "note",
@@ -2399,16 +2369,6 @@
         },
         {
             "type": "note",
-            "column": 3,
-            "startTime": 85263
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 85320
-        },
-        {
-            "type": "note",
             "column": 1,
             "startTime": 85378
         },
@@ -2424,16 +2384,6 @@
         },
         {
             "type": "note",
-            "column": 2,
-            "startTime": 85606
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 85663
-        },
-        {
-            "type": "note",
             "column": 4,
             "startTime": 85720
         },
@@ -2446,16 +2396,6 @@
             "type": "note",
             "column": 4,
             "startTime": 85892
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 85949
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 86006
         },
         {
             "type": "note",
@@ -2719,62 +2659,6 @@
             "type": "note",
             "column": 4,
             "startTime": 93092
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 93263
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 93263
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 93435
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 93606,
-            "endTime": 93778
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 93778
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 93949
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 93949
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 94120
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 94120
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 94292
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 94463
         },
         {
             "type": "note",
@@ -4274,6 +4158,7 @@
         }
     ],
     "cursor": [
+        
         {
             "type": "normal",
             "x": 0.5,
@@ -4840,109 +4725,69 @@
             "startTime": 90578
         },
         {
-            "type": "normal",
+            "type": "ein",
             "x": 0.5,
             "startTime": 93263
         },
         {
-            "type": "normal",
-            "x": 0.25,
+            "type": "eout",
+            "x": 0.75,
             "startTime": 93606
         },
         {
             "type": "normal",
-            "x": 0.0,
+            "x": 0.5,
             "startTime": 93949
         },
         {
-            "type": "normal",
-            "x": 0.25,
+            "type": "eout",
+            "x": 0.5,
             "startTime": 94292
         },
         {
             "type": "normal",
-            "x": 0.5,
+            "x": 0.25,
             "startTime": 94635
         },
         {
-            "type": "normal",
-            "x": 0.0,
+            "type": "eout",
+            "x": 0.5,
             "startTime": 96006
         },
         {
-            "type": "normal",
+            "type": "ein",
             "x": 0.25,
-            "startTime": 96178
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
             "startTime": 96349
         },
         {
-            "type": "normal",
-            "x": 0.125,
-            "startTime": 96520
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 96692
-        },
-        {
-            "type": "normal",
-            "x": 0.0,
+            "type": "eout",
+            "x": 0.75,
             "startTime": 96863
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.25,
             "startTime": 97035
         },
         {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 97206
-        },
-        {
-            "type": "normal",
-            "x": 0.0,
+            "type": "eout",
+            "x": 0.4375,
             "startTime": 97378
         },
         {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 97549
+            "type": "ein",
+            "x": 0.1875,
+            "startTime": 97721
         },
         {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 97720
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 97892
-        },
-        {
-            "type": "normal",
-            "x": 0.375,
-            "startTime": 98063
-        },
-        {
-            "type": "normal",
-            "x": 0.0,
+            "type": "eout",
+            "x": 0.6875,
             "startTime": 98235
         },
         {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 98406
-        },
-        {
-            "type": "normal",
-            "x": 0.125,
-            "startTime": 98578
+            "type": "ein",
+            "x": 0.1875,
+            "startTime": 98407
         },
         {
             "type": "normal",
@@ -4952,422 +4797,197 @@
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 98920
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 99092
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 99263
-        },
-        {
-            "type": "normal",
-            "x": 0.875,
-            "startTime": 99435
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 99606
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 99778
-        },
-        {
-            "type": "normal",
-            "x": 0.375,
-            "startTime": 99949
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 100120
-        },
-        {
-            "type": "normal",
-            "x": 0.375,
-            "startTime": 100292
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 100463
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 100635
-        },
-        {
-            "type": "normal",
-            "x": 0.875,
-            "startTime": 100806
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 100978
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 101149
-        },
-        {
-            "type": "normal",
-            "x": 0.625,
-            "startTime": 101320
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
             "startTime": 106978
         },
         {
             "type": "normal",
-            "x": 0.75,
-            "startTime": 107235
-        },
-        {
-            "type": "normal",
             "x": 0.25,
-            "startTime": 107492
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
             "startTime": 108349
         },
         {
             "type": "normal",
-            "x": 0.25,
-            "startTime": 108606
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 108863
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
+            "x": 0.875,
             "startTime": 109720
         },
         {
             "type": "normal",
-            "x": 0.75,
-            "startTime": 109978
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 110235
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
+            "x": 0.125,
             "startTime": 111092
         },
         {
-            "type": "normal",
+            "type": "eout",
             "x": 0.25,
-            "startTime": 111349
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 111606
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
             "startTime": 112463
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.0,
             "startTime": 112806
         },
         {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 113320
+            "type": "eout",
+            "x": 0.5,
+            "startTime": 113149
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.0,
             "startTime": 113492
         },
         {
-            "type": "normal",
-            "x": 1.0,
+            "type": "eout",
+            "x": 0.25,
             "startTime": 113835
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.0,
             "startTime": 114178
         },
         {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 114692
-        },
-        {
-            "type": "normal",
+            "type": "eout",
             "x": 0.5,
-            "startTime": 114863
+            "startTime": 114521
         },
         {
-            "type": "normal",
-            "x": 1.0,
+            "type": "ein",
+            "x": 0.0,
+            "startTime": 114864
+        },
+        {
+            "type": "eout",
+            "x": 0.25,
             "startTime": 115206
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.0,
             "startTime": 115549
         },
         {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 116063
+            "type": "eout",
+            "x": 0.5,
+            "startTime": 115892
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 0.0,
             "startTime": 116235
         },
         {
-            "type": "normal",
-            "x": 1.0,
+            "type": "eout",
+            "x": 0.25,
             "startTime": 116578
         },
         {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 116920
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 117435
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 117606
-        },
-        {
-            "type": "normal",
+            "type": "ein",
             "x": 0.0,
+            "startTime": 116921
+        },
+        {
+            "type": "eout",
+            "x": 0.5,
+            "startTime": 117264
+        },
+        {
+            "type": "ein",
+            "x": 0.0,
+            "startTime": 117607
+        },
+        {
+            "type": "eout",
+            "x": 0.75,
             "startTime": 117949
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 1.0,
             "startTime": 118292
         },
         {
-            "type": "normal",
-            "x": 0.0,
-            "startTime": 118806
+            "type": "eout",
+            "x": 0.5,
+            "startTime": 118635
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 1.0,
             "startTime": 118978
         },
         {
-            "type": "normal",
-            "x": 0.0,
-            "startTime": 119320
+            "type": "eout",
+            "x": 0.75,
+            "startTime": 119321
         },
         {
-            "type": "normal",
+            "type": "ein",
+            "x": 1.0,
+            "startTime": 119664
+        },
+        {
+            "type": "eout",
             "x": 0.5,
-            "startTime": 119663
+            "startTime": 120007
         },
         {
-            "type": "normal",
-            "x": 0.0,
-            "startTime": 120178
+            "type": "ein",
+            "x": 1.0,
+            "startTime": 120350
         },
         {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 120349
-        },
-        {
-            "type": "normal",
-            "x": 0.0,
+            "type": "eout",
+            "x": 0.75,
             "startTime": 120692
         },
         {
-            "type": "normal",
-            "x": 0.5,
+            "type": "ein",
+            "x": 1.0,
             "startTime": 121035
         },
         {
-            "type": "normal",
-            "x": 0.0,
-            "startTime": 121549
-        },
-        {
-            "type": "normal",
+            "type": "eout",
             "x": 0.5,
-            "startTime": 121720
+            "startTime": 121378
         },
         {
-            "type": "normal",
-            "x": 0.0,
-            "startTime": 122063
+            "type": "ein",
+            "x": 1.0,
+            "startTime": 121721
         },
         {
-            "type": "normal",
+            "type": "eout",
+            "x": 0.75,
+            "startTime": 122064
+        },
+        {
+            "type": "ein",
+            "x": 1.0,
+            "startTime": 122407
+        },
+        {
+            "type": "eout",
             "x": 0.5,
-            "startTime": 122406
+            "startTime": 122750
+        },
+        {
+            "type": "ein",
+            "x": 1.0,
+            "startTime": 123093
         },
         {
             "type": "normal",
-            "x": 0.0,
-            "startTime": 122920
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 123092
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
+            "x": 0.4375,
             "startTime": 123435
         },
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 123692
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 123949
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 124120
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 124378
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 124635
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 124806
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 125063
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 125320
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 125492
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
             "startTime": 126178
         },
         {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 126435
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 126692
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 126863
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 126949
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 127120
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 127292
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 127378
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 127549
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 127806
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 128063
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 128235
-        },
-        {
-            "type": "normal",
-            "x": 1.0,
-            "startTime": 128578
-        },
-        {
-            "type": "normal",
+            "type": "linear",
             "x": 0.75,
             "startTime": 128920
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 129178
         },
         {
             "type": "normal",
@@ -5375,29 +4995,19 @@
             "startTime": 129435
         },
         {
-            "type": "normal",
+            "type": "linear",
             "x": 0.75,
             "startTime": 130292
         },
         {
             "type": "normal",
-            "x": 0.5,
-            "startTime": 130549
-        },
-        {
-            "type": "normal",
             "x": 0.25,
-            "startTime": 130806
+            "startTime": 130807
         },
         {
-            "type": "normal",
+            "type": "linear",
             "x": 0.75,
             "startTime": 131663
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 131920
         },
         {
             "type": "normal",
@@ -5405,19 +5015,14 @@
             "startTime": 132178
         },
         {
-            "type": "normal",
+            "type": "linear",
             "x": 0.75,
             "startTime": 133035
         },
         {
             "type": "normal",
-            "x": 0.5,
-            "startTime": 133292
-        },
-        {
-            "type": "normal",
             "x": 0.25,
-            "startTime": 133549
+            "startTime": 133550
         }
     ],
     "timingPoints": [

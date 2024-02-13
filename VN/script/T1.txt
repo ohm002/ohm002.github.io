@@ -1,0 +1,56 @@
+$IMG=./VN/BG/utopia_3.jpg
+$AUDIO=./VN/SFX/2.mp3
+$PLAY=TRUE
+$CHAR=???
+$ICON=shiro2_happy
+Hello There!
+Welcome to NEODITRONIX!
+$CHAR=Shiro?
+I'm Shiro!
+$ICON=shiro2_confused
+Or I mean...
+I'm actually not really Shiro.
+$CHAR=log() / ohm002
+$ICON=shiro2_smile
+I'm actually log(), or ohm002, the developer of this game.
+I currently don't have any avatar so I'll just use his avatar for now.
+But don't worry, he will have a role soon!
+$ICON=shiro2_happy
+Hi, players! Thanks for trying out NEODITRONIX!
+This has been a really tough thing to work on.
+Making games has always been something I really want to achieve in my life, and now, It's kind of getting true now!
+Now I think I should introduce you to the context of how this game is going to be developed.
+$ICON=shiro2_smile
+For now, I don't think I will call this a "game", as the main goal of this game is not to meant to satisfy you, rather it's to satisfy myself. 
+It's made simply to test the limits on how far I can go in my creative endevours.
+$ICON=shiro2_confused
+So that means, most of the songs in this game is going to be composed by me. (Unfortunately)
+$ICON=shiro2_smile
+Don't worry, there will definitely be songs from other artists to give you guys a fresh taste of new unique contents in this game.
+$ICON=shiro2_confused
+But according to what I planned.. At least the main story must only include my songs, that is my ground rule into developing this game.
+$ICON=shiro2_smile
+And.. Yeah! I think that's pretty much all about the context of how I will develop this game.
+Thanks for taking a look at this Super Demo Beta Build, I'll see you on the full release!
+$IMG=./VN/BG/a.png
+I really enjoyed making all these amazing creative mediums.
+$IMG=./VN/BG/b.png
+And I would love it to share it to you guys!
+$IMG=./VN/BG/c.png
+If you want to see my progress, I might casually post it in my discord server https://discord.gg/xGrYPFBc
+Or the main twitter account @neuroditronix !
+$IMG=./VN/BG/d.png
+Please check it out!
+$ICON=shiro2_dhappy
+
+$IMG=./BG/utopia_space.jpg
+
+$IMG=./BG/utopia_3.jpg
+
+$IMG=./BG/eden_stellify.jpg
+
+$SFX=./VN/SFX/eff.wav
+$IMG=./BG/underthrone_turmoil.jpg
+
+Now rest here for a while.
+$PLAY=FALSE

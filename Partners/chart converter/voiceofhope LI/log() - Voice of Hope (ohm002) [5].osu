@@ -1,0 +1,70 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.mp3
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 0.5
+BeatDivisor: 1
+GridSize: 32
+TimelineZoom: 2.100002
+
+[Metadata]
+Title:Voice of Hope
+TitleUnicode:Voice of Hope
+Artist:log()
+ArtistUnicode:log()
+Creator:ohm002
+Version:5
+Source:
+Tags:
+BeatmapID:0
+BeatmapSetID:-1
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:5
+OverallDifficulty:5
+ApproachRate:5
+SliderMultiplier:2.5
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+2990,535.714285714287,4,2,0,100,1,0
+
+
+[HitObjects]
+0,192,2989,5,0,0:0:0:0:
+64,192,5132,1,0,0:0:0:0:
+128,192,7275,1,0,0:0:0:0:
+192,192,9418,1,0,0:0:0:0:
+256,192,11561,1,0,0:0:0:0:
+320,192,13704,1,0,0:0:0:0:
+384,192,15847,1,0,0:0:0:0:
+448,192,17990,1,0,0:0:0:0:
+512,192,20132,5,0,0:0:0:0:
+384,192,22275,1,0,0:0:0:0:
+256,192,24418,1,0,0:0:0:0:
+128,192,26561,1,0,0:0:0:0:
+0,192,28704,1,0,0:0:0:0:
+256,192,30847,1,0,0:0:0:0:
+512,192,32990,1,0,0:0:0:0:
+256,192,35132,1,0,0:0:0:0:

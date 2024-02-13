@@ -105,7 +105,7 @@ input {
     padding: 1svw;
     /* filter: drop-shadow(0 0 0.15svw rgb(255, 255, 255)); */
     padding-left: 20svw;
-    filter: drop-shadow(3px 3px 0 white) drop-shadow(-3px -3px 0 white);
+    filter: drop-shadow(0 0 5px white) drop-shadow(0 0 5px white) ;
     padding-right: 20svw;
     /* background: linear-gradient(90deg,
             rgba(255, 255, 255, 0) 0%,
@@ -125,3 +125,61 @@ input {
 .game-enter {
     color: white;
 }
+
+
+.mainmenubuttons {
+    position: absolute;
+    right: 0;
+    width: 40svw;
+    height: 100svh;
+    /* background-color: rgb(201, 64, 160); */
+    /* clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%); */
+    /* filter: drop-shadow(0svw 0svw 0.5svw rgb(255, 193, 239)); */
+    /* background: linear-gradient(270deg,
+        rgb(255, 114, 213) 0%,
+        rgb(255, 114, 213) 50%, */
+        /* rgba(255, 164, 228, 0) 99%, */
+        /* rgba(255, 164, 228, 0) 100%); */
+    top: 0;
+    padding-right: 3svw;
+    /* background-image: url('https://cdn.discordapp.com/attachments/999638294390395022/1194230214310510683/utopia_3.jpg'); */
+    /* background-size: cover; */
+    /* transform: translateY(100%); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .mainmenubuttons * {
+    filter: drop-shadow(0.2svw 0.2svw 0svw rgb(139, 70, 127));
+  }
+  
+  .mainmenubuttonscol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .mainmenubuttonscol img {
+    margin: 0.5svh;
+  }
+  
+  .mainmenubuttons-play {
+    width: 18svw;
+  }
+  
+  .mainmenubuttons-store {
+    width: 13svw;
+  }
+  
+  .mainmenubuttons-settings {
+    width: 15svw;
+    /* float: left; */
+    /* background-color: white; */
+    /* padding: 1svw; */
+  }
+  
+  .mainmenubuttons-quest {
+    width: 24.4svw;
+  }

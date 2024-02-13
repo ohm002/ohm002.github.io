@@ -1,101 +1,17 @@
-$IMG=./VN/BG/1.jpg
 $CHAR=Shiro
-Due to the radio silence, my curiosity heightened.
-I simply use this program as an emotional support by now whenever I’m bored or sad.
-I’m not overusing it though. I can generate good activities from it.
-I just realized that I can make it generate some fun games for me to keep me being active.
-It’s a fun tool for me to kill time.
-It's fun for me to simply think about it.
-$CHAR=
-Beep!
-Boop!
-Beep! Boop!
-Beep Beep!
-$CHAR=Shiro
-Ah! The results are out. 
-$CHAR=
-That is the sound of my lab machine, which is used to gather information about all the space objects I've collected.
-I, Shiro, am a researcher. I have been one since the dawn of time. 
-It is what gives me life, to know what I don’t know.
-Isn’t it fascinating to see that there’s so much to know about this world? 
-For sure, it’s better than knowing nothing at all.
-Shiro walks into his lab room. 
-The holograms displaying all the objects' data immediately launch up. 
-This is the golden plate that he just found, and he wants to decode it.
 1st attempt... Failed. 
-$CHAR=Shiro
 So it was not this algorithm... 
 I see. So what if I change this specific line of the algorithm? 
 Will it show something meaningful? 
-$CHAR=Shiro
 Beep! Boop! 
 Beep! Boop! 
 Beep Beep!
-$CHAR=Shiro
 Nope... not at all. 
-$CHAR=
 15th attempt... Failed. 
-$CHAR=Shiro
 Damn... this is tough. 
-Frustration is normal, maybe the results will come into focus soon.
-$CHAR=
 30th attempt... Failed. 
-$CHAR=Shiro
-You see... 
-$CHAR=
 70th attempt... Failed. 
-$CHAR=Shiro
-At that time, I was so surprised by the carvings and all diagrams written on the plate. 
-I simply started this because this is not a normal thing. 
-$CHAR=
 100th attempt... Failed. 
-$CHAR=Shiro
-There shouldn’t be something this refined and polished if I was the only one alone here. 
-I refused to believe this is some natural occurrence; for sure, it must mean something. 
-$CHAR=
 500th attempt... Failed. 
-$CHAR=Shiro
-My assumption is, there is indeed someone from another planet who makes this plate and sends it here. 
-So I want to know if that assumption is true. 
-$CHAR=
 700th attempt... Failed. 
-$CHAR=Shiro
-If I believe that it will be true. Will it be as I wish? 
-$CHAR=
-...
-A while has passed. 
-For what seems like an eternity to me, I stopped.
-764th attempt at trying to decode this golden plate... Failed.
-I guess it wasn't for me then.. 
-$CHAR=Shiro
-It was all just a jumbled mess of gibberish on every attempt. 
-Haha...ha. 
-I hate it. 
-I hate when this just keeps on giving me failed results. 
-I just want to know that there’s a purpose inside this plate.
-Can I even hold that hope now? A hope that I can see someone, someday. 
-I just want to know that I’m not alone. 
-Can you please tell me that this is someone else’s work and not some natural occurrences?
-I still have some hope... 
-As I think about how lonely I am in this place, I notice a small communications device on the lab's shelf. 
-It appears to be working, but I can't hear any signals from outside. 
-I pick up the device… 
-Will there be any response if I decided to say something to it?
-...I hope so.
-...
-"Hello..?"
-..
-"....."
-Ahaha...
-Nothing. 
-It’s all silence... As I expected it to be. 
-Haha. I’m truly alone in this place. 
-If only there’s someone to help me. Can I wish for someone to come here, please? 
-I close my eyes, wishing for something to happen. 
-Tears are running from my eyes. 
-My second command line is opened. 
-I opened that by myself.
-This command line is basically my diary by now. 
-If I could describe what you’ve always wanted in one phrase, what do I want to say? 
-If I can describe it all like a song title..
-$FORM=SONG|What can I write?|utopia.preciouspromise
+For each and every attempt, Shiro’s gaze starts to be more intense and unhappy, as he’s trying his best to decode it.

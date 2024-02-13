@@ -1,0 +1,9 @@
+$IMG=./VN/BG/2.jpg
+$AUDIO=./VN/SFX/event1.mp3
+$PLAY=TRUE
+$CHAR=Shiro
+Can I even hold that hope now? A hope that I can see someone, someday. 
+I just want to know that I’m not alone. 
+Can you please tell me that this is someone else’s work and not some natural occurrences?
+I still have some hope... 
+$PLAY=FALSE

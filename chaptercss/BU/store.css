@@ -44,7 +44,7 @@
     font-size: 5dvh;
     position: absolute;
     z-index: 2;
-    color: rgb(255, 59, 173);
+    color: rgb(65, 12, 42);
     /* mix-blend-mode: exclusion; */
     top: 0;
     right: 0svw;
@@ -56,16 +56,16 @@
 
 
 .storepack {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     /* color: white; */
     margin: 1svh;
     padding-bottom: 1svh;
     /* padding-right: 1svw; */
-    /* border: solid 1px rgb(255, 59, 173); */
+    border: solid 1px rgb(255, 59, 173);
     width: 25svw;
     /* transform: translate(-8svw, 5svh); */
     display: flex;
-    filter: drop-shadow(#F972C4 0.5svw 0.5svw 0svw);
+    /* filter: drop-shadow(#ffffff 0svw 0svw 0.5svw); */
     flex-direction: column;
     /* align-items: flex-end; */
     height: auto !important;

@@ -1,23 +1,42 @@
 .gacha-container {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%); */
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
     transform: translate(-50%, -50%);
-    width: 100svw;
-    height: 90svh;
+    /* width: 60svw;
+    height: 50svh; */
     display: flex;
+    padding: 1svw;
     align-items: center;
     flex-direction: column;
+    filter: drop-shadow(rgba(0, 0, 0, 0.479) 0 0 0.3svw);
     justify-content: center;
     opacity: 0;
     z-index: 2;
 }
 
+.gachadescription {
+    /* background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 2%, rgba(255, 255, 255, 0.815) 50%, rgba(255, 255, 255, 0) 98%,white 100%); */
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    padding: 1svw;
+    top: 50%;
+    left: -25%;
+    color: #331e2f;
+    filter: drop-shadow(rgba(0, 0, 0, 0.479) 0 0 0.3svw);
+    transform: translate(-50%, -50%);
+}
+
 .gacha-reward-container {
     /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%); */
     position: absolute;
-    /* background-color: white; */
+    background-color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -44,7 +63,7 @@
     transform: translate(-50%, -50%) scale(1);
     width: 100svw;
     height: 90svh;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%);
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 10%, white 90%, rgba(255, 255, 255, 0) 100%); */
 }
 
 .gacha-reward-animation {
@@ -174,11 +193,11 @@
 }
 
 .gacha-event-banner {
-    width: 50%;
+    width: 100%;
 }
 
 .gacha-buys {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
