@@ -2159,7 +2159,7 @@
         {
             "type": "note",
             "column": 4,
-            "startTime": 97603
+            "startTime": 97488
         },
         {
             "type": "note",
@@ -2293,13 +2293,18 @@
         },
         {
             "type": "note",
+            "column": 2,
+            "startTime": 101065
+        },
+        {
+            "type": "note",
             "column": 1,
-            "startTime": 101180
+            "startTime": 101296
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 101411
+            "startTime": 101526
         },
         {
             "type": "note",
