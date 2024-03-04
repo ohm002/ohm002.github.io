@@ -4,7 +4,6 @@
   margin: 5dvw;
   /* background-image: url(https://cdn.discordapp.com/attachments/999638294390395022/1135493690001989692/IMG_2033.jpg); */
   /* background-size: cover; */
-
 }
 
 .utopia-storyentry {
@@ -16,7 +15,6 @@
   transition: 1s;
   width: 50dvh;
 }
-
 
 .utopia-storyentry:hover {
   color: white;
@@ -37,7 +35,6 @@
   overflow: scroll;
   background-size: cover;
 }
-
 
 .storymenu {
   display: flex;
@@ -80,7 +77,6 @@
   background-size: cover;
   perspective: 50svw;
   perspective-origin: -50% -50%;
-
 }
 
 .storymenu-chapter div {
@@ -109,14 +105,12 @@
   /* font-style: italic; */
 }
 
-
 .storymenu-chapter-description-name {
   position: absolute;
   /* top: 0svh; */
   font-size: 1svw;
   opacity: 1;
 }
-
 
 .storymenu-chapter-description-uncomplete,
 .storymenu-chapter-description-complete {
@@ -148,8 +142,6 @@
   /* filter: drop-shadow(0.2svw 0.2svw 0svw var(--utopia)); */
   /* transition-duration: 0.5s; */
 }
-
-
 
 .storymenu-chapter-description-uncomplete:hover,
 .storymenu-chapter-description-complete:hover {
@@ -218,7 +210,7 @@
   justify-content: center;
   font-weight: 400;
   height: 100svh;
-  color: #FF00CF;
+  color: #ff00cf;
   opacity: 0;
   background-size: cover;
   z-index: 1;
@@ -226,11 +218,9 @@
   animation: loadingscreenanimation 0.5s linear;
 }
 
-
 .vn-box-container-loadingscreen img {
   animation: loadingscreenanimationimg 1s cubic-bezier(0.08, 0.82, 0.17, 1);
 }
-
 
 @keyframes loadingscreenanimationimg {
   0% {
@@ -240,9 +230,7 @@
   100% {
     transform: rotateX(0deg) rotateY(0deg);
   }
-
 }
-
 
 @keyframes loadingscreenanimation {
   0% {
@@ -250,11 +238,9 @@
   }
 
   100% {
-    opacity: 0
+    opacity: 0;
   }
 }
-
-
 
 .vn-box-log .vn-text-display-char {
   margin-top: 3svh;
@@ -266,7 +252,7 @@
 }
 
 .vn-box-log::before {
-  content: "Text Log";
+  content: 'Text Log';
   position: absolute;
   left: 0;
   top: 0;
@@ -281,7 +267,7 @@
 }
 
 .vn-box-log::after {
-  content: "(Click here or Log button again to remove the log panel.)";
+  content: '(Click here or Log button again to remove the log panel.)';
   position: absolute;
   right: 1svw;
   top: 1svw;
@@ -358,7 +344,7 @@
 
 .vn-icon {
   /* background-color: rgba(255, 255, 255, 0.5); */
-  filter: drop-shadow(0 0 1svw rgba(0, 0, 0, 0.5));
+  /* filter: drop-shadow(0 0 1svw rgba(0, 0, 0, 0.5)); */
   bottom: 0;
   left: 50%;
   z-index: -1;
@@ -371,7 +357,6 @@
 
 .vn-header span {
   filter: drop-shadow(0svw 0 0.2svw rgb(0, 0, 0));
-
 }
 
 .vn-header {
@@ -390,17 +375,17 @@
   width: 100svw;
   /* margin: 1svw; */
   padding: 1svw;
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   /* mix-blend-mode: screen; */
   /* background-color: rgba(255, 255, 255, 0.9); */
   text-align: left;
 }
-
-
 .vn-text-display {
-  height: 20svh;
+  height: 25svh;
   display: flex;
   bottom: 0;
   position: absolute;
@@ -411,15 +396,16 @@
   padding-top: 8svh;
   /* margin: 1svw; */
   padding-left: 5svw;
-  background: linear-gradient(0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0.5) 60%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.6) 30svh,
+    rgba(255, 255, 255, 0) 100%
+  );
   /* background-color: rgba(255, 255, 255, 0.4); */
   align-items: flex-start;
   justify-content: flex-start;
 }
-
 
 .vn-box-tools {
   display: flex;
@@ -446,7 +432,6 @@
   align-items: center;
   font-weight: 700;
 }
-
 
 .vn-box-tools-bt:hover {
   color: black;
@@ -494,9 +479,12 @@
 
 .vn-text-display-dialogue-special {
   position: absolute;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0.6) 50%,
-      rgba(0, 0, 0, 0.4) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
   display: flex;
   flex-direction: column;
   /* mix-blend-mode: ; */
@@ -517,14 +505,13 @@
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 
   to {
-    width: 80%
+    width: 80%;
   }
 }
-
 
 .storymenu-chapter-banner {
   width: 100svw;
@@ -537,6 +524,7 @@
   opacity: 1;
   image-rendering: pixelated;
   object-fit: fill;
+  background-position: left top;
   /* background-color: #FF47C2; */
   /* filter: drop-shadow(0 0 1svw var(--utopia)); */
   /* margin-bottom: 3svh; */
@@ -575,7 +563,6 @@
   image-rendering: pixelated;
   top: 0svh;
 }
-
 
 .storymenu-chapter-banner-overlay {
   width: 100svw;
@@ -635,6 +622,51 @@
   border: rgb(255, 115, 197) solid 1px;
 }
 
+.notification-new-song::before {
+  content: 'Requirements :';
+  font-size: 2svh;
+  color: #e93dc9;
+  /* padding: 1svw; */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 141, 217) 50%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+}
+
+.difficulty-selector2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Righteous', cursive;
+  color: rgb(0, 0, 0);
+  width: 70svw;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 2;
+  animation: anomaly 1s ease-out;
+}
+
+@keyframes anomaly {
+  0% {
+    margin-top: 10svh;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0svh;
+    opacity: 1;
+  }
+}
+
 .notification-new-song {
   width: 100svw !important;
   height: 100svh !important;
@@ -644,9 +676,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   /* border: var(--utopia) solid 2px; */
-  background: url('https://cdn.discordapp.com/attachments/1143769032605057136/1159760620414042133/Untitled_Artwork.png?ex=6532323f&is=651fbd3f&hm=5de979cb8866ee997176bdc485703d33f33fd1fbb8b77a01161a10464b052cb7&') !important;
+  /* background: url('https://cdn.discordapp.com/attachments/1143769032605057136/1159760620414042133/Untitled_Artwork.png?ex=6532323f&is=651fbd3f&hm=5de979cb8866ee997176bdc485703d33f33fd1fbb8b77a01161a10464b052cb7&') !important; */
   /* background: none !important; */
-  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0) 100%) !important; */
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
   /* background: white !important; */
   background-size: contain !important;
   background-position: center !important;
@@ -713,19 +752,23 @@
   padding: 0.2svw 3svw 0.2svw 3svw;
   /* border: black 1px solid; */
   filter: drop-shadow(0svw 0svw 2svw var(--utopia));
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .notification-new-song-artist {
   filter: drop-shadow(0svw 0svw 2svw var(--utopia));
   padding: 0.2svw 3svw 0.2svw 3svw;
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   margin: 1svh;
   font-size: 0.8svw;
   font-weight: 700;
@@ -735,10 +778,12 @@
   font-weight: 800;
   padding: 0.2svw 3svw 0.2svw 3svw;
   filter: drop-shadow(0svw 0svw 2svw var(--utopia));
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   font-size: 1svw;
 }
 
@@ -764,10 +809,12 @@
   justify-content: center;
   align-items: center;
   /* background-color: white; */
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   color: rgba(255, 74, 223, 1);
   animation: notianimation 1s cubic-bezier(0.08, 0.82, 0.17, 1);
 }
@@ -788,10 +835,12 @@
   justify-content: center;
   align-items: center;
   /* background-color: white; */
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   color: rgba(255, 74, 223, 1);
   animation: notianimation 1s cubic-bezier(0.08, 0.82, 0.17, 1);
 }

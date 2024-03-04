@@ -361,7 +361,7 @@
     ],
     "timingPoints": [
         {
-            "time": 2990,
+            "time": 0,
             "bpm": 112,
             "meter": 4,
             "defaultSampleSet": "drum",

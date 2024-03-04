@@ -2,10 +2,7 @@
 
 * {
   image-rendering: optimizeSpeed;
-
 }
-
-
 
 .songs {
   /* background-image: url(https://cdn.discordapp.com/attachments/671324264531492878/1141726099223625748/Untitled_Artwork.png); */
@@ -153,7 +150,8 @@
   opacity: 0.6;
 }
 
-.diffselectdiff {}
+.diffselectdiff {
+}
 
 .diffselects {
   display: flex;
@@ -175,7 +173,6 @@
   z-index: -1;
   /* top: 6svh; */
 }
-
 
 .songjacketbg-locked {
   position: absolute;
@@ -210,7 +207,8 @@
   top: 30svh;
 }
 
-.songjacketbg-trigger {}
+.songjacketbg-trigger {
+}
 
 @keyframes flash {
   0% {
@@ -223,7 +221,6 @@
 }
 
 @keyframes songjacket {
-
   0%,
   100% {
     border: rgba(255, 0, 157, 0.479) 1px solid;
@@ -366,7 +363,6 @@
 }
 
 @keyframes textanim {
-
   0%,
   10% {
     opacity: 0;
@@ -427,7 +423,8 @@
 
 @keyframes songplay {
   0% {
-    filter: drop-shadow(rgba(255, 255, 255, 0) 1svw 1svw 0) drop-shadow(rgba(255, 255, 255, 0) -1svw -1svw 2svw);
+    filter: drop-shadow(rgba(255, 255, 255, 0) 1svw 1svw 0)
+      drop-shadow(rgba(255, 255, 255, 0) -1svw -1svw 2svw);
   }
 
   100% {
@@ -496,7 +493,6 @@
   font-weight: 700;
 }
 
-
 .result-mapdisplay-header {
   position: absolute;
   top: 10svh;
@@ -505,8 +501,7 @@
   font-family: 'Montserrat', sans-serif !important;
   display: flex;
   align-items: baseline;
-  filter:
-    drop-shadow(rgb(255, 255, 255) 0 0 0.3svw);
+  filter: drop-shadow(rgb(255, 255, 255) 0 0 0.3svw);
   /* -webkit-text-stroke: white;
   -webkit-text-stroke-width: 1px; */
   /* margin-bottom: 2dvh; */
@@ -569,13 +564,13 @@
 
 .rewardscreen {
   display: flex;
-  background:
-    linear-gradient(90deg,
-      rgba(248, 202, 229, 0) 0%,
-      rgb(247, 209, 231) 30%,
-      rgb(247, 209, 231) 70%,
-      rgba(248, 202, 229, 0) 100%);
-  ;
+  background: linear-gradient(
+    90deg,
+    rgba(248, 202, 229, 0) 0%,
+    rgb(247, 209, 231) 30%,
+    rgb(247, 209, 231) 70%,
+    rgba(248, 202, 229, 0) 100%
+  );
   filter: drop-shadow(0svw 0svw 1svw rgb(255, 180, 225));
   padding: 1svw;
   /* align-items: center; */
@@ -595,7 +590,7 @@
 }
 
 .rewardscreen::before {
-  content: "Reward";
+  content: 'Reward';
   position: absolute;
   top: 1svh;
   left: 50%;
@@ -775,7 +770,7 @@
   z-index: 10;
   align-items: flex-end;
   justify-content: flex-end;
-  justify-self:  flex-end;
+  justify-self: flex-end;
 }
 
 .songs {
@@ -912,7 +907,6 @@ path {
 }
 
 @keyframes glitch {
-
   2%,
   63% {
     transform: translate(2px, 0) skew(0deg);
@@ -940,7 +934,6 @@ path {
   }
 }
 
-
 .chapter-select {
   position: absolute;
   z-index: 1;
@@ -948,11 +941,13 @@ path {
   width: 100svw;
   top: 0;
   left: 0;
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(255, 255, 255, 1) 80%,
-      rgba(255, 255, 255, 0) 100%) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
   background-size: cover;
   /* background-image: none !important; */
   /* background-blend-mode: screen; */
@@ -1057,7 +1052,6 @@ path {
   cursor: pointer;
 }
 
-
 .songdiff-rank {
   display: flex;
   height: 100%;
@@ -1091,9 +1085,8 @@ path {
   font-size: 4svw;
 }
 
-
 .partners-select-selected::before {
-  content: "<< selected >>";
+  content: '<< selected >>';
   position: absolute;
   left: 50%;
   top: -1svh;
@@ -1101,18 +1094,22 @@ path {
   color: var(--utopia);
   font-weight: 600;
   font-size: 1svw;
-  background: linear-gradient(90deg,
-      rgba(240, 61, 207, 0) 0%,
-      rgb(255, 255, 255) 50%,
-      rgba(240, 61, 207, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 61, 207, 0) 0%,
+    rgb(255, 255, 255) 50%,
+    rgba(240, 61, 207, 0) 100%
+  );
   transform: translateX(-50%);
 }
 
 .partners-select-selected {
-  background: linear-gradient(0deg,
-      rgba(240, 61, 207, 0) 0%,
-      rgba(240, 61, 207, 0.486) 50%,
-      rgba(240, 61, 207, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(240, 61, 207, 0) 0%,
+    rgba(240, 61, 207, 0.486) 50%,
+    rgba(240, 61, 207, 0) 100%
+  );
   filter: drop-shadow(0svw 0svw 0.5svw var(--utopia));
   animation: partnerselectanimation 0.1s ease-out;
 }
@@ -1138,7 +1135,6 @@ path {
   cursor: pointer;
 }
 
-
 .partners-select-icon {
   width: 10svw;
   height: 10svw;
@@ -1149,11 +1145,13 @@ path {
   margin-top: 1svh;
   color: white;
   font-weight: 600;
-  background: linear-gradient(90deg,
-      rgba(240, 61, 207, 0) 0%,
-      rgb(240, 61, 207) 20%,
-      rgb(240, 61, 207) 80%,
-      rgba(240, 61, 207, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 61, 207, 0) 0%,
+    rgb(240, 61, 207) 20%,
+    rgb(240, 61, 207) 80%,
+    rgba(240, 61, 207, 0) 100%
+  );
 }
 
 .optionsmenu-partners-select-list {

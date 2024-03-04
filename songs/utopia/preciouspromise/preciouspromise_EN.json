@@ -4925,6 +4925,11 @@
             "type": "normal",
             "x": 0.5,
             "startTime": 61445
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 136594
         }
     ],
     "timingPoints": [
