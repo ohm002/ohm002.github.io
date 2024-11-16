@@ -1,1505 +1,2466 @@
 {
     "audioPath": "audio/starrysky.mp3",
+    "id": "utopia.starrydream.Neon",
     "bgPath": "utopia_space",
-    "id": "utopia.starrysky.Neon",
-    "jacketPath": "jackets/starrysky.jpg",
-    "preview": 90.520,
+    "jacketPath": "jackets/starrydream.jpg",
     "metadata": {
-        "title": "Starry Sky",
-        "titleUnicode": "Starry Sky",
+        "title": "Starry Dream",
+        "titleUnicode": "Starry Dream",
         "artist": "log()",
         "artistUnicode": "log()",
-        "illustrator": "log()",
         "creator": "Shiro",
-        "difficult": "8",
-        "difficultcc": 8,
+        "difficult": "5",
+        "illustrator": "log()",
+        "difficultcc": 5,
         "difficulttype": "NEON"
     },
     "hitObjects": [
         {
             "type": "hold",
             "column": 4,
-            "startTime": 2642,
-            "endTime": 3565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 3103
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 3565
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 4257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 4257
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 4488,
-            "endTime": 4950
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 4950,
-            "endTime": 5411
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 5411,
-            "endTime": 5873
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 5873
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 6334
-        },
-        {
-            "type": "hold",
-            "column": 3,
-            "startTime": 6334,
-            "endTime": 7257
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 6796
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 7257
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 7950
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 8180,
-            "endTime": 8642
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 8180,
-            "endTime": 8642
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 8642
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 8873
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 8873
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 9103
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 9103
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 9796
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 10026,
-            "endTime": 10488
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 10488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 10719
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 10950,
-            "endTime": 11411
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 11411
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 11642
-        },
-        {
-            "type": "hold",
-            "column": 3,
-            "startTime": 11873,
-            "endTime": 12334
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 12334
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 12565
+            "startTime": 6513,
+            "endTime": 7199
         },
         {
             "type": "hold",
             "column": 1,
-            "startTime": 12796,
-            "endTime": 13257
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 13257
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 13488
-        },
-        {
-            "type": "hold",
-            "column": 1,
-            "startTime": 13719,
-            "endTime": 15565
+            "startTime": 7199,
+            "endTime": 7885
         },
         {
             "type": "hold",
             "column": 2,
-            "startTime": 14642,
-            "endTime": 15565
+            "startTime": 7885,
+            "endTime": 8571
         },
         {
             "type": "hold",
             "column": 3,
-            "startTime": 15565,
-            "endTime": 17411
+            "startTime": 8571,
+            "endTime": 8914
         },
         {
             "type": "hold",
-            "column": 4,
-            "startTime": 16488,
-            "endTime": 17411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 24796
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 24796
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 25257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 25257
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 25719
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 25719
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 28488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 28488
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 28950
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 28950
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 29411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 29411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 32180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 32180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 32526
-        },
-        {
-            "type": "note",
             "column": 1,
-            "startTime": 32642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 32642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 32873
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 33103
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 33103
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 33450
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 33450
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 33565
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 33796
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 34026
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 34026
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 34373
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 34488
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 34719
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 34719
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 35180
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 35180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 35411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 35642
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 35873
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 35873
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 36219
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 36334
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 36565
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 36565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 37026
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 37026
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 37257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 37257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 37488
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 37603
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 37719
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 37719
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 38180
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 38180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 38642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 38642
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 39103
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 39103
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 39565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 39565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 40026
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 40026
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 40488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 40488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 43257
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 43257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 43719
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 43719
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 44180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 44180
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 46719
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 46950
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 46950
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 47296
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 47411
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 47411
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 47642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 47873
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 48219
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 48334
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 48565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 48796
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 48796
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 49142
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 49257
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 49488
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 49719
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 49719
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 49950
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 50180
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 50411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 50642
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 50642
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 50988
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 51103
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 51334
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 51565
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 51565
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 51796
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 52026
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 52257
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 52373
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 52488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 52488
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 52950
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 52950
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 53411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 53411
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 53873
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 53873
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 54334
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 54680
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 54796
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 55142
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 55373
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 55603
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 55834
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 56065
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 56180
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 56296
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 56411
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 56526
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 56642
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 56873
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 57103
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 57334
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 57565
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 57680
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 57796
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 58026
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 58373
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 58488
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 58834
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 58950
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 59296
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 59411
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 59757
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 59873
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 59988
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 60103
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 60219
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 60334
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 60565
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 60796
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 60796
-        },
-        {
-            "type": "hold",
-            "column": 1,
-            "startTime": 65411,
-            "endTime": 65757
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 65757
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 65873,
-            "endTime": 66219
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 66219
-        },
-        {
-            "type": "hold",
-            "column": 1,
-            "startTime": 66334,
-            "endTime": 66680
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 66680
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 66796,
-            "endTime": 67142
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 67142
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 67257
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 67373
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 67488
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 67603
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 67719
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 67950
-        },
-        {
-            "type": "hold",
-            "column": 1,
-            "startTime": 68180,
-            "endTime": 68642
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 68180,
-            "endTime": 68642
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 68642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 68642
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 72796,
-            "endTime": 73142
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 73142
+            "startTime": 8914,
+            "endTime": 9256
         },
         {
             "type": "hold",
             "column": 3,
-            "startTime": 73257,
-            "endTime": 73603
+            "startTime": 9256,
+            "endTime": 9942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 9942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 10114
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 10285
         },
         {
             "type": "note",
             "column": 1,
-            "startTime": 73603
+            "startTime": 10285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 10456
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 73719,
-            "endTime": 74065
+            "startTime": 10456,
+            "endTime": 11656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 11656
         },
         {
             "type": "note",
             "column": 1,
-            "startTime": 74065
+            "startTime": 11999
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 12228
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 12456
         },
         {
             "type": "hold",
-            "column": 3,
-            "startTime": 74180,
-            "endTime": 74526
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 74526
+            "column": 2,
+            "startTime": 12685,
+            "endTime": 13714
         },
         {
             "type": "note",
             "column": 4,
-            "startTime": 74642
+            "startTime": 13714
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 74757
+            "startTime": 14056
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 74873
+            "startTime": 14399
         },
         {
-            "type": "note",
+            "type": "hold",
+            "column": 2,
+            "startTime": 14742,
+            "endTime": 15428
+        },
+        {
+            "type": "hold",
             "column": 1,
-            "startTime": 74988
+            "startTime": 14742,
+            "endTime": 15428
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 15771,
+            "endTime": 16799
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 75103,
-            "endTime": 75334
+            "startTime": 15771,
+            "endTime": 16799
         },
         {
-            "type": "hold",
+            "type": "note",
             "column": 2,
-            "startTime": 75334,
-            "endTime": 75565
+            "startTime": 16799
         },
         {
-            "type": "hold",
-            "column": 3,
-            "startTime": 75565,
-            "endTime": 76488
+            "type": "note",
+            "column": 2,
+            "startTime": 17485
         },
         {
             "type": "hold",
             "column": 1,
-            "startTime": 78334,
-            "endTime": 78680
+            "startTime": 17485,
+            "endTime": 18171
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 18171
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 78680
+            "startTime": 18514
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 18685
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 18685,
+            "endTime": 19542
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 19199
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 19542
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 20228
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 20228,
+            "endTime": 20742
         },
         {
             "type": "hold",
             "column": 2,
-            "startTime": 78796,
-            "endTime": 79142
+            "startTime": 20742,
+            "endTime": 21085
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 79142
+            "startTime": 21085
         },
         {
             "type": "hold",
-            "column": 1,
-            "startTime": 79257,
-            "endTime": 79603
-        },
-        {
-            "type": "note",
             "column": 3,
-            "startTime": 79603
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 79719
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80065
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 80180
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80296
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 80411
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80526
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 80642
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 80873
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 81103
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 81103
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 81334
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 81565
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 81680
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 81796
+            "startTime": 21599,
+            "endTime": 21942
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 82026,
-            "endTime": 82373
+            "startTime": 21599,
+            "endTime": 21942
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 22285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 22285
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 82373
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 82488,
-            "endTime": 82834
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 82834
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 82950,
-            "endTime": 83296
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 83296
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 83411,
-            "endTime": 83757
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 83757
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 83873
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 83988
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 84103
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 84219
-        },
-        {
-            "type": "note",
-            "column": 4,
-            "startTime": 84334
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 84565
-        },
-        {
-            "type": "hold",
-            "column": 4,
-            "startTime": 84796,
-            "endTime": 85603
+            "startTime": 22628
         },
         {
             "type": "hold",
             "column": 1,
-            "startTime": 85719,
-            "endTime": 86065
+            "startTime": 22971,
+            "endTime": 23656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 22971
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 86065
+            "startTime": 23656
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 23999
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 24171
         },
         {
             "type": "hold",
             "column": 2,
-            "startTime": 86180,
-            "endTime": 86526
+            "startTime": 24171,
+            "endTime": 24856
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 24856
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 86526
+            "startTime": 25028
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 25199
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 25371
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 25542
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 25714
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 86642,
-            "endTime": 86988
+            "startTime": 25714,
+            "endTime": 26228
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 86988
-        },
-        {
-            "type": "hold",
-            "column": 2,
-            "startTime": 87103,
-            "endTime": 87450
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 87450
-        },
-        {
-            "type": "note",
-            "column": 1,
-            "startTime": 87565
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 87680
+            "startTime": 26056
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 87796
+            "startTime": 26228
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 26399
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 26571
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 26742,
+            "endTime": 27256
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 27428
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 27771
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 27771
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 28114
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 28456,
+            "endTime": 29314
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 28456,
+            "endTime": 29314
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 87911
+            "startTime": 29485
         },
         {
-            "type": "hold",
-            "column": 1,
-            "startTime": 88026,
-            "endTime": 88257
+            "type": "note",
+            "column": 2,
+            "startTime": 29485
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 29656
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 29656
         },
         {
             "type": "hold",
             "column": 3,
-            "startTime": 88257,
-            "endTime": 88488
+            "startTime": 31199,
+            "endTime": 32056
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 31199,
+            "endTime": 32056
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 32228
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 32228
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 32399
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 32399
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 33942,
+            "endTime": 34799
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 33942,
+            "endTime": 34799
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 34971
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 34971
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 35142
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 35142
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 36685,
+            "endTime": 37542
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 36685,
+            "endTime": 37542
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 37714
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 37714
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 37885
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 37885
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 39428,
+            "endTime": 40285
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 39428,
+            "endTime": 40285
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 40456
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 40456
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 40628
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 40628
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 42171,
+            "endTime": 43028
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 42171,
+            "endTime": 43028
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 43199
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 43199
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 43371
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 43371
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 44914,
+            "endTime": 45771
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 44914,
+            "endTime": 45771
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 45942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 45942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 46114
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 46114
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 47656,
+            "endTime": 48514
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 47656,
+            "endTime": 48514
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 48685
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 48685
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 48856
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 48856
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 50399
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 50571
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 50742
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 50914
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 51085
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 51256
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 51428
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 51599
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 51771
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 51942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 52114
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 52285
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 52456
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 52628
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 52799
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 52971
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 53142
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 53142
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 53314
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 53485
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 53485
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 53656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 53828
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 53828
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 53999
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 54171
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 54171
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 54342
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 54514
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 54599
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 54685
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 54771
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 54856
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 54942
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 55028
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 55114
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 55199
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 55285
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 55371
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 55456
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 55542
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 55885,
+            "endTime": 56571
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 56571
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 56742
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 56828
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 56914
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 57599
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 57942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 58114
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 58285
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 58456
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 58628
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 58799
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 58971
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 59142
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 59314
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 59485
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 59656
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 59828
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 59999
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 60171
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 60342
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 60514
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 60685
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 60856
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 61028
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 61199
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 61371
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 61371
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 61542
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 61714
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 61885
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 62056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 62056
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 62228
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 62399
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 63085
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 63428
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 63599
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 63771
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 63942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 64114
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 64285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 64456
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 64628
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 64799
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 64971
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 65142
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 65314
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 65485
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 65656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 65828
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 65999
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 66171
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 66342
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 66514
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 66685
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 66856
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 67028
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 67199
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 67371
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 67542
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 67542
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 67714
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 67885
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 67885
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 68571
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 68571
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 68914
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 68914
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 69085
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 69256
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 69256
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 69428
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 69599
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 69771
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 69942
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 69942
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 70114
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 70285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 70285
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 70456
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 70628
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 70628
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 71314
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 71314
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 71656
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 71656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 71828
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 71999
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 71999
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 72342
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 72514
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 72685
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 72685
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 72856
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 73028
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 73199
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 73371
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 73371
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 73542
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 74056
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 74056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 74399
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 74399
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 74571
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 74742
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 74742
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 75428
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 75428
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 75771
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 75771
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 75942
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 76114
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 76114
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 76799
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 76799
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 77485
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 77485
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 78171
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 78171
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 78856
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 78856
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 79542
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 79885
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 80056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 80228
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 80571
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 80742
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 80914
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 81085
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 81256
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 81428
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 81599
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 81771
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 81942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 81942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 82114
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 82285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 82456
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 82628
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 82799
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 82971
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 83142
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 83314
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 83314
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 83485
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 83656
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 83656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 83999
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 83999
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 84171
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 84342
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 84342
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 85028
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 85028
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 85371
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 85371
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 85542
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 85714
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 85714
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 86399
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 86399
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 86742
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 86742
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 86914
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 87085
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 87085
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 87771
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 87942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 88114
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 88285
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 88456
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 88628
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 88799
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 88885
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 88971
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 89056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 89142
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 89228
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 89314
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 89399
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 89485
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 89571
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 89656
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 89742
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 89828
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 89828
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 90514
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 90856
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 91028
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 91028
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 91199
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 91542
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 91542
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 91885
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 91885
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 92056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 92228
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 92228
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 92399
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 92571
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 92914
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 92914
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 93085
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 93171
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 93256
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 93428
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 93599
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 93599
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 93771
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 93942
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 93942
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 94114
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 94285
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 94285
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 94456
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 94628
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 94971
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 94971
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 95142
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 95314
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 95314
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 95999
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 95999
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 96171
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 96342
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 96342
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 96514
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 96685
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 96685
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 96856
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 97028
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 97028
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 97199
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 97371
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 97371
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 97714
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 97714
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 97885
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 98056
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 98056
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 98228
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 98399
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 98485
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 98571
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 98656
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 88488,
-            "endTime": 88719
+            "startTime": 98742,
+            "endTime": 98914
         },
         {
             "type": "hold",
             "column": 2,
-            "startTime": 88719,
-            "endTime": 88950
+            "startTime": 98914,
+            "endTime": 99085
         },
         {
-            "type": "note",
+            "type": "hold",
             "column": 3,
-            "startTime": 88950
+            "startTime": 99085,
+            "endTime": 99256
         },
         {
-            "type": "note",
+            "type": "hold",
             "column": 1,
-            "startTime": 89065
+            "startTime": 99256,
+            "endTime": 99428
         },
         {
             "type": "note",
-            "column": 3,
-            "startTime": 89180
+            "column": 4,
+            "startTime": 99428
         },
         {
-            "type": "note",
-            "column": 2,
-            "startTime": 89296
+            "type": "hold",
+            "column": 1,
+            "startTime": 99599,
+            "endTime": 99771
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 89411,
-            "endTime": 89757
+            "startTime": 99771,
+            "endTime": 100799
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 89757
-        },
-        {
-            "type": "hold",
-            "column": 3,
-            "startTime": 89873,
-            "endTime": 90219
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 90219
-        },
-        {
-            "type": "hold",
-            "column": 1,
-            "startTime": 90334,
-            "endTime": 90680
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 90680
-        },
-        {
-            "type": "hold",
-            "column": 3,
-            "startTime": 90796,
-            "endTime": 91142
-        },
-        {
-            "type": "note",
-            "column": 2,
-            "startTime": 91142
-        },
-        {
-            "type": "note",
-            "column": 3,
-            "startTime": 91257
+            "startTime": 100114
         },
         {
             "type": "note",
             "column": 1,
-            "startTime": 91373
+            "startTime": 100114
         },
         {
             "type": "note",
             "column": 3,
-            "startTime": 91488
+            "startTime": 100456
         },
         {
             "type": "note",
             "column": 2,
-            "startTime": 91603
+            "startTime": 100799
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 100799
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 101485
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 101656
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 101828
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 101828
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 101999
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 102171
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 102171
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 102342
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 102514
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 102514
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 102856
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 102856,
+            "endTime": 103199
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 103028
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 91719,
-            "endTime": 91950
+            "startTime": 103199,
+            "endTime": 103542
         },
         {
-            "type": "hold",
-            "column": 2,
-            "startTime": 91950,
-            "endTime": 92180
-        },
-        {
-            "type": "hold",
+            "type": "note",
             "column": 3,
-            "startTime": 92180,
-            "endTime": 93103
+            "startTime": 103371
         },
         {
-            "type": "hold",
+            "type": "note",
             "column": 1,
-            "startTime": 107873,
-            "endTime": 115257
+            "startTime": 103542
         },
         {
-            "type": "hold",
+            "type": "note",
+            "column": 1,
+            "startTime": 104228
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 104399
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 104571
+        },
+        {
+            "type": "note",
             "column": 2,
-            "startTime": 108334,
-            "endTime": 109719
+            "startTime": 104571
         },
         {
-            "type": "hold",
+            "type": "note",
+            "column": 4,
+            "startTime": 104742
+        },
+        {
+            "type": "note",
             "column": 3,
-            "startTime": 108796,
-            "endTime": 109719
+            "startTime": 104914
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 104914
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 105599
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 105771
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 105942
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 105942
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 106114
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 106285
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 106971
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 107142
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 107314
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 107314
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 107485
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 107656
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 107656
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 107828
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 107999
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 107999
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 108342
         },
         {
             "type": "hold",
             "column": 4,
-            "startTime": 109257,
-            "endTime": 109719
+            "startTime": 108342,
+            "endTime": 108685
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 108514
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 108685,
+            "endTime": 109028
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 108856
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 109028
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 109714
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 109885
+        },
+        {
+            "type": "note",
+            "column": 1,
+            "startTime": 110056
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 110056
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 110228
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 110399
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 110399
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 111085
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 111256
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 111428
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 111428
+        },
+        {
+            "type": "note",
+            "column": 2,
+            "startTime": 111599
+        },
+        {
+            "type": "note",
+            "column": 3,
+            "startTime": 111771
+        },
+        {
+            "type": "hold",
+            "column": 4,
+            "startTime": 112799,
+            "endTime": 113485
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 113485,
+            "endTime": 114856
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 114856,
+            "endTime": 116228
+        },
+        {
+            "type": "hold",
+            "column": 4,
+            "startTime": 116228,
+            "endTime": 117256
+        },
+        {
+            "type": "hold",
+            "column": 2,
+            "startTime": 117599,
+            "endTime": 118971
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 118971,
+            "endTime": 120342
+        },
+        {
+            "type": "hold",
+            "column": 1,
+            "startTime": 120342,
+            "endTime": 121714
+        },
+        {
+            "type": "hold",
+            "column": 3,
+            "startTime": 121714,
+            "endTime": 123085
+        },
+        {
+            "type": "note",
+            "column": 4,
+            "startTime": 123085
         }
     ],
     "cursor": [
@@ -1509,321 +2470,249 @@
             "startTime": 0
         },
         {
-            "type": "ein",
-            "x": 0.3125,
-            "startTime": 26411
-        },
-        {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 26642
-        },
-        {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 26988
-        },
-        {
-            "type": "eout",
-            "x": 0.5,
-            "startTime": 27103
-        },
-        {
-            "type": "eout",
-            "x": 0.125,
-            "startTime": 27334
-        },
-        {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 27565
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 28456
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 28026
+            "startTime": 29485
         },
         {
-            "type": "ein",
-            "x": 0.6875,
-            "startTime": 30103
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 29656
         },
         {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 30334
-        },
-        {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 30680
-        },
-        {
-            "type": "eout",
-            "x": 0.5,
-            "startTime": 30795
-        },
-        {
-            "type": "eout",
-            "x": 0.875,
-            "startTime": 31026
-        },
-        {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 31257
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 31199
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 31718
+            "startTime": 32228
         },
         {
-            "type": "ein",
-            "x": 0.3125,
-            "startTime": 41180
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 32399
         },
         {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 41411
-        },
-        {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 41757
-        },
-        {
-            "type": "eout",
-            "x": 0.5,
-            "startTime": 41872
-        },
-        {
-            "type": "eout",
-            "x": 0.125,
-            "startTime": 42103
-        },
-        {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 42334
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 33942
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 42795
+            "startTime": 34971
         },
         {
-            "type": "ein",
-            "x": 0.6875,
-            "startTime": 44872
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 35142
         },
         {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 45103
-        },
-        {
-            "type": "eout",
-            "x": 0.6875,
-            "startTime": 45449
-        },
-        {
-            "type": "eout",
-            "x": 0.5,
-            "startTime": 45564
-        },
-        {
-            "type": "eout",
-            "x": 0.875,
-            "startTime": 45795
-        },
-        {
-            "type": "eout",
-            "x": 0.3125,
-            "startTime": 46026
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 36685
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 46487
-        },
-        {
-            "type": "eout",
-            "x": 0.25,
-            "startTime": 61719
+            "startTime": 37714
         },
         {
             "type": "normal",
-            "x": 0.75,
-            "startTime": 62065
-        },
-        {
-            "type": "eout",
-            "x": 0.75,
-            "startTime": 62180
+            "x": 0.0,
+            "startTime": 37885
         },
         {
             "type": "normal",
-            "x": 0.25,
-            "startTime": 62526
-        },
-        {
-            "type": "eout",
-            "x": 0.25,
-            "startTime": 62642
+            "x": 1.0,
+            "startTime": 39428
         },
         {
             "type": "normal",
-            "x": 0.75,
-            "startTime": 62988
+            "x": 0.5,
+            "startTime": 40456
         },
         {
-            "type": "eout",
-            "x": 0.75,
-            "startTime": 63103
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 40628
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 42171
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 43199
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 43371
+        },
+        {
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 44914
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 45942
+        },
+        {
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 46114
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 47656
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 48685
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 48856
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 57256
+        },
+        {
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 62742
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 68228
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 70971
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 73714
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 75085
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 76456
         },
         {
             "type": "normal",
             "x": 0.25,
-            "startTime": 63450
+            "startTime": 77142
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 63565
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 63680
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 63795
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 63911
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 64026
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 64257
-        },
-        {
-            "type": "ein",
-            "x": 0.5,
-            "startTime": 64488
-        },
-        {
-            "type": "eout",
-            "x": 0.25,
-            "startTime": 64719
-        },
-        {
-            "type": "normal",
-            "x": 0.5,
-            "startTime": 64950
-        },
-        {
-            "type": "eout",
-            "x": 0.75,
-            "startTime": 69103
-        },
-        {
-            "type": "normal",
-            "x": 0.25,
-            "startTime": 69449
-        },
-        {
-            "type": "eout",
-            "x": 0.25,
-            "startTime": 69564
+            "startTime": 77828
         },
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 69910
-        },
-        {
-            "type": "eout",
-            "x": 0.75,
-            "startTime": 70026
+            "startTime": 78514
         },
         {
             "type": "normal",
-            "x": 0.25,
-            "startTime": 70372
-        },
-        {
-            "type": "eout",
-            "x": 0.25,
-            "startTime": 70487
-        },
-        {
-            "type": "normal",
-            "x": 0.75,
-            "startTime": 70834
+            "x": 1.0,
+            "startTime": 79199
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 70949
+            "startTime": 84685
         },
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 71064
+            "startTime": 86056
+        },
+        {
+            "type": "normal",
+            "x": 0.1875,
+            "startTime": 87428
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 71179
+            "startTime": 90171
+        },
+        {
+            "type": "normal",
+            "x": 0.0,
+            "startTime": 95656
+        },
+        {
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 101142
         },
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 71295
+            "startTime": 103885
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 71410
+            "startTime": 105256
+        },
+        {
+            "type": "normal",
+            "x": 1.0,
+            "startTime": 106628
+        },
+        {
+            "type": "normal",
+            "x": 0.5,
+            "startTime": 109371
         },
         {
             "type": "normal",
             "x": 0.75,
-            "startTime": 71641
-        },
-        {
-            "type": "ein",
-            "x": 0.5,
-            "startTime": 71872
-        },
-        {
-            "type": "eout",
-            "x": 0.75,
-            "startTime": 72103
+            "startTime": 110742
         },
         {
             "type": "normal",
             "x": 0.5,
-            "startTime": 72334
+            "startTime": 112114
         }
     ],
     "timingPoints": [
         {
-            "time": -343,
-            "bpm": 175,
+            "time": 1696,
+            "bpm": 160,
             "meter": 4,
+            "defaultSampleSet": "drum",
+            "volume": 100,
+            "mode": "2k",
             "speed": 1
         }
     ]

@@ -1,8 +1,7 @@
 {
     "audioPath": "audio/voh.mp3",
     "id": "utopia.voiceofhope.Enigma",
-    "bgPath": "utopia_space",
-    "preview": 3.525,
+    "bgPath": "underthrone_turmoil",
     "jacketPath": "jackets/voh.jpg",
     "metadata": {
         "title": "Voice of Hope",
@@ -12,8 +11,7 @@
         "creator": "ohm002",
         "difficultcc": 7,
         "difficult": "7",
-        "illustrator": "log()",
-        "difficulttype": "ENIGMA"
+        "difficulttyp4": "ENIGMA"
     },
     "hitObjects": [
         {
@@ -528,7 +526,7 @@
     ],
     "timingPoints": [
         {
-            "time": 0,
+            "time": 2990,
             "bpm": 112,
             "meter": 4,
             "defaultSampleSet": "drum",

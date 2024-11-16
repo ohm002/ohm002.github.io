@@ -1,8 +1,7 @@
 {
     "audioPath": "audio/voh.mp3",
     "id": "utopia.voiceofhope.Neon",
-    "preview": 3.525,
-    "bgPath": "utopia_space",
+    "bgPath": "utopia.space",
     "jacketPath": "jackets/voh.jpg",
     "metadata": {
         "title": "Voice of Hope",
@@ -10,7 +9,6 @@
         "artist": "Angel of Love",
         "artistUnicode": "Angel of Love",
         "creator": "ohm002",
-        "illustrator": "log()",
         "difficultcc": 4,
         "difficult": "4",
         "difficulttype": "NEON"
@@ -361,7 +359,7 @@
     ],
     "timingPoints": [
         {
-            "time": 0,
+            "time": 2990,
             "bpm": 112,
             "meter": 4,
             "defaultSampleSet": "drum",

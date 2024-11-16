@@ -2,7 +2,6 @@
     "audioPath": "audio/voh.mp3",
     "bgPath": "utopia_space",
     "id": "utopia.voiceofhope.Lite",
-    "preview": 3.525,
     "jacketPath": "jackets/voh.jpg",
     "metadata": {
         "title": "Voice of Hope",
@@ -254,15 +253,6 @@
         }
     ],
     "timingPoints": [
-        {
-            "time": 0,
-            "bpm": 112,
-            "meter": 4,
-            "defaultSampleSet": "drum",
-            "volume": 100,
-            "speed": 1,
-            "mode": "2k"
-        },
         {
             "time": 2990,
             "bpm": 112,
